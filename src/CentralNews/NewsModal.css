@@ -1,0 +1,137 @@
+.mod {
+  background: rgba(231, 231, 231, 0.6);
+  backdrop-filter: blur(64px) !important;
+  width: 1000px;
+  height: 759px;
+  left: 0px;
+  top: 0px;
+  padding-left: 20px;
+  position: relative;
+}
+.simple-modal-description {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.doctor_names {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+}
+.mob {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 18px;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.read:hover {
+  cursor: pointer;
+}
+.read {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+a.hover {
+  cursor: pointer;
+}
+.location {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+}
+.horizontal {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+  visibility: hidden;
+}
+.slide {
+  /* margin-right: 30px; */
+  /* width: 100%;
+    height: 100%; */
+  padding-right: 22px;
+}
+
+.related {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155%;
+  /* identical to box height, or 31px */
+
+  text-align: justify;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+.detail {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+.designation {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155%;
+}
+.otherdetails {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155%;
+}
+.link {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: justify;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+@media (max-width: 800px) {
+  .mod {
+    width: 550px !important;
+  }
+}
+@media (max-width: 500px) {
+  .mod {
+    width: 90vw !important;
+    height: 100% !important;
+  }
+  .doctor_names {
+    font-size: 14px;
+  }
+  .mob {
+    font-size: 14px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .detail {
+    font-size: 14px;
+  }
+  .designation {
+    font-size: 14px;
+  }
+  .otherdetails {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,230 @@
+.ContactHeader_title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 87px;
+  color: #ffffff;
+}
+.ContactMobile_menu {
+  display: none;
+}
+.ContactHeader_container {
+  background: #785086;
+  padding-top: 150px;
+}
+
+.ContactHeader_row {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.ContactHeader_col1 {
+  margin-right: 70px;
+  margin-bottom: 25px;
+}
+.ContactHeader_subtitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.ContactHeader_Col2title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.ContactHeader_Col2subtitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.ContactHeader_col2 {
+  background: #f5f5f5;
+  padding-top: 25px;
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .ContactHeader_title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .ContactHeader_container {
+    background: #785086;
+    padding-top: 150px;
+  }
+
+  .ContactHeader_row {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .ContactHeader_col1 {
+    margin-right: 70px;
+    margin-bottom: 25px;
+  }
+  .ContactHeader_subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .ContactHeader_Col2title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: #000000;
+  }
+
+  .ContactHeader_Col2subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .ContactHeader_col2 {
+    background: #f5f5f5;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+}
+/* Big tablets */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .ContactHeader_title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .ContactHeader_container {
+    background: #785086;
+    padding-top: 150px;
+  }
+
+  .ContactHeader_row {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .ContactHeader_col1 {
+    margin-right: 70px;
+    margin-bottom: 25px;
+  }
+  .ContactHeader_subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  .ContactHeader_Col2title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #000000;
+  }
+
+  .ContactHeader_Col2subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .ContactHeader_col2 {
+    background: #f5f5f5;
+    padding-top: 25px;
+    padding-left: 15px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 480px) {
+  .ContactHeader_title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  .ContactHeader_container {
+    background: #785086;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ContactHeader_row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .ContactHeader_col1 {
+    margin-right: 70px;
+    margin-bottom: 25px;
+  }
+  .ContactHeader_subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+
+  /* .ContactHeader_Col2title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    margin-bottom: 0;
+    color: #000000;
+  }
+
+  .ContactHeader_Col2subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #000000;
+  } */
+
+  .ContactHeader_col2 {
+    background: #f5f5f5;
+    padding-top: 25px;
+  }
+  .ContactMobile_menu {
+    display: block;
+  }
+  .ContactUs_mobile {
+    display: none;
+  }
+}

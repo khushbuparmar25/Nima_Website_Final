@@ -1,0 +1,355 @@
+/* html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.History_maindiv {
+  /* background-image: url("./background.jpg"); */
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./background.jpg");
+   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  */
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  height:100vh;
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+  display:flex ;
+  position: absolute;
+  top: 0;
+}
+.History_container{
+  align-items: center;
+  display:flex;
+  justify-content: center;
+}
+pre {
+  font-family: "Poppins", sans-serif;
+}
+.History__lightColor {
+  color: #ffeadc;
+}
+.text {
+  text-align: right;
+  bottom: 0;
+}
+.footer_upcloud {
+  display: flex;
+  justify-content: flex-start;
+  color: lightgray;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: -25vw;
+  position: fixed;
+  bottom: -2vh;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.History__link {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: right;
+  color: #d2d2d2;
+}
+.History__link:hover {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: right;
+  color: #d2d2d2;
+}
+.MobileView {
+  display: none;
+  bottom: 20px;
+  left: 40%;
+  position: fixed;
+}
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  .History__row {
+    /* margin-left: 28%; */
+    /* margin-right: 28%; */
+    float: right;
+  }
+  .History__registerLink {
+    float: right;
+  }
+  .History__MobileData {
+    display: none;
+  }
+  .History__text1 {
+    font-size: 60px;
+  }
+  .History__linkImg {
+    width: 40px;
+    height: 50px;
+  }
+  .History__75 {
+    /* line-height: 0; */
+    font-size: 90px;
+  }
+  .History__text2 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+  .History__textFont {
+    font-size: 17px;
+  }
+
+  .History__17 {
+    font-size: 35px;
+  }
+  .History__text4 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+
+/*bigger tablets*/
+@media (min-width: 800px) and (max-width: 1200px) {
+  .History__MobileData {
+    display: none;
+  }
+  .History__row {
+    /* margin-left: 28%; */
+    /* margin-right: 28%; */
+    float: right;
+  }
+  .History__registerLink {
+    float: right;
+  }
+  .History__MobileData {
+    display: none;
+  }
+  .History__text1 {
+    font-size: 60px;
+  }
+  .History__linkImg {
+    width: 40px;
+    height: 50px;
+  }
+
+  .History__75 {
+    /* line-height: 0; */
+    font-size: 55px;
+  }
+  .History__text2 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+
+  .History__textFont {
+    font-size: 17px;
+  }
+  .History__17 {
+    font-size: 35px;
+  }
+  .History__text4 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .History__MobileData {
+    display: none;
+  }
+  .History__row {
+    /* margin-left: 28%; */
+    /* margin-right: 28%; */
+    float: right;
+  }
+  .History__registerLink {
+    float: right;
+  }
+  .History__MobileData {
+    display: none;
+  }
+  .History__text1 {
+    font-size: 60px;
+  }
+  .History__linkImg {
+    width: 40px;
+    height: 50px;
+  }
+
+  .History__75 {
+    /* line-height: 0; */
+    font-size: 55px;
+  }
+  .History__text2 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+
+  .History__textFont {
+    font-size: 17px;
+  }
+
+  .History__17 {
+    font-size: 35px;
+  }
+  .History__text4 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+}
+/* MOBILE SPECIFIC */
+
+@media only screen and (max-width: 480px) {
+  .footer_upcloud {
+    display: flex;
+    justify-content: flex-start;
+    color: lightgray;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 20px;
+    margin-left: -10vw;
+    position: fixed;
+    bottom: -2vh;
+  }
+  .History__Data {
+    display: none;
+  }
+  .MobileView {
+    display: flex;
+  }
+
+  .History__registerLink {
+    float: right;
+    margin-right: 1%;
+  }
+  .History__link {
+    font-size: 15px;
+  }
+  .History__text1 {
+    font-size: 42px;
+    line-height: 63px;
+    text-align: right;
+  }
+
+  .History__75 {
+    font-size: 30px;
+  }
+  .History__linkImg {
+    width: 25.95px;
+    height: 36px;
+  }
+  .History__text2 {
+    font-size: 19px;
+  }
+  .History__text3 {
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffeadc;
+  }
+}
+
+/* ANIMATIONS */
+
+.animation {
+  transform: translateY(-400%);
+  transition: 1s all ease-out;
+}
+.animationFade {
+  transform: translateY(220%);
+  transition: 1s all ease-out;
+  /* overflow: hidden; */
+  animation-name: animationFade;
+  animation-duration: 1s;
+}
+@keyframes animationFade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animationTop {
+  /* opacity: 0; */
+  animation-name: animationTop;
+  animation-duration: 1s;
+  /* animation-timing-function: ease-in-out;
+    animation-iteration-count: 5; */
+}
+@keyframes animationTop {
+  /* 0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    } */
+  from {
+    margin-top: -100%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+
+hr {
+  height: 8px;
+  background-color: #ff812d;
+  border: none;
+  width: 80%;
+  margin-right: 0 !important;
+}
+.lineAnimation {
+  animation-name: lineAnim;
+  animation-duration: 1s;
+}
+@keyframes lineAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+.animatebottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -150%;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -150%;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}

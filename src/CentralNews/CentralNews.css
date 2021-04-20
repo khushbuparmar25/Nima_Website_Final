@@ -1,0 +1,59 @@
+.Central__Date {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #000000;
+  border-bottom: 5px solid #2541b2;
+}
+.Central_footer_upcloud {
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  /* margin-left: 5%; */
+  margin-bottom: 0;
+}
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .Central__Date {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    border-bottom: 5px solid #2541b2;
+  }
+}
+/* Big tablets */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Central__Date {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+    border-bottom: 5px solid #2541b2;
+  }
+}
+/* mobile */
+@media screen and (max-width: 480px) {
+  .Central__Date {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    color: #000000;
+    border-bottom: 5px solid #2541b2;
+  }
+  .Central_footer_upcloud {
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 0;
+    /* margin-left: 5%; */
+    margin-bottom: 0;
+  }
+}

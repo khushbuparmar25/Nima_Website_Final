@@ -1,0 +1,104 @@
+import React,{ useState} from 'react';
+import nima_icon from '../nima_icon.png'; 
+import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretUp, faCaretDown } from '@fortawesome/free-solid-svg-icons'
+
+const Header = () => {
+    // const [deskDropdown, setDeskDropdown] = useState(false)
+    const [newsDropdown, setNewsDropdown] = useState(false)
+    const [downloadDropdown, setDownloadDropdown] = useState(false)
+    const [nimaDropdown, setNimaDropdown] = useState(false)
+    const [membershipDropdown, setMembershipDropdown] = useState(false)
+
+    return (
+        <div>
+            <nav className={`navbar navbar-expand-md navbar-light bg-light ${window.location.pathname.toLowerCase()==='/history' && '/objectives' ? 'Header_history'  : 'Header_base'}`}>  
+                <a className="navbar-brand Header_text" href="/"><img src={nima_icon} alt="x" width="58" height="58" className="Nima_icon"/><span className="Header_title">Nima India</span></a>
+                <ul className="navbar-nav Header_links">
+                    <li className="nav-item">
+                    <a className="nav-link Header_text" href="/">Home</a>
+                    </li>    
+                    <li className="nav-item">
+                    <a className="nav-link Header_text" href="/desk">Desk</a>
+                    </li>            
+                    {/* <li className="nav-item dropdown" onClick={()=>{
+                        setDeskDropdown(!deskDropdown)
+                        console.log("click")
+                    }}>
+                    <a className="nav-link Header_text" data-bs-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Desk
+                    {deskDropdown ? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
+                    </a>                  
+                    <div className="dropdown-menu">
+                        <a className="dropdown-item" href="#">Secretory</a>
+                        <a className="dropdown-item" href="#">President</a>
+                        <a className="dropdown-item" href="#">Tresurer</a>
+                    </div>
+                    </li> */}
+                    <li className="nav-item dropdown" onClick={()=>{
+                        setNewsDropdown(!newsDropdown)
+                        console.log("click")
+                    }}>
+                    <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">News
+                    {newsDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
+                    </a>
+                    <div className="dropdown-menu">
+                        <a className="dropdown-item" href="/centralnews">Central News</a>
+                        <a className="dropdown-item" href="/branchnews">Branch News</a>
+                        <a className="dropdown-item" href="/elections">CC Election 2019-21</a>
+                        <li><a className="dropdown-item" href="/covid">Covid 19</a></li>
+                    </div>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link Header_text" href="/gallery">Gallery</a>
+                    </li> 
+                    <li className="nav-item dropdown" onClick={()=>{
+                        setDownloadDropdown(!downloadDropdown)
+                        console.log("click")
+                    }}>
+                    <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Downloads
+                    {downloadDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
+                    </a>
+                    <div className="dropdown-menu">
+                        <a className="dropdown-item" href="/download">Important Downloads</a>
+                        <a className="dropdown-item" href="#">Wallpapers</a>
+                    </div>
+                    </li>
+                    <li className="nav-item dropdown" onClick={()=>{
+                        setNimaDropdown(!nimaDropdown)
+                        console.log("click")
+                    }}>
+                    <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">We Nima
+                    {nimaDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
+                    </a>
+                    <div className="dropdown-menu">
+                        <a className="dropdown-item" href="/history">History</a>
+                        <a className="dropdown-item" href="/objectives">Objectives</a>
+                        <a className="dropdown-item" href="#">About Us</a>
+                        <a className="dropdown-item" href="/stateofficebariars">State Office Bariars</a>
+                    </div>
+                    </li>
+                    <li className="nav-item dropdown" onClick={()=>{
+                        setMembershipDropdown(!membershipDropdown)
+                        console.log("click")
+                    }}>
+                    <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Membership
+                    {membershipDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
+                    </a>
+                    <div className="dropdown-menu">
+                        <a className="dropdown-item" href="#">Life Members</a>
+                        <a className="dropdown-item" href="/mbs">Mutual Benefits</a>
+                        <a className="dropdown-item" href="/womensforum">Women Forum</a>
+                        <a className="dropdown-item" href="#">Students Forum</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link Header_text" href="/contactus">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    )
+}
+
+export default Header

@@ -1,0 +1,175 @@
+.modal-dialog {
+  margin: auto !important;
+  max-width: 800px !important;
+}
+.modal-content {
+  padding: 25px;
+  width: 800px;
+  /* background: rgba(213, 213, 213, 0.7); */
+  /* backdrop-filter: blur(74px); */
+}
+.CovidModal_Link {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.CovidModal_images {
+  /* width: 50%; */
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .modal-dialog {
+    margin: auto !important;
+    max-width: 500px !important;
+  }
+  .modal-content {
+    width: 500px;
+  }
+}
+
+.CovidModal_modalImage {
+  width: 274px;
+  margin-right: 15px;
+  height: 300px;
+  background: #c4c4c4;
+}
+
+.CovidModal_modelClass {
+  backdrop-filter: blur(74px);
+}
+
+.CovidModal_modalTitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+.CovidModal_modalDate {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #060606;
+}
+.CovidModal_modalDescription {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: justify;
+  color: #000000;
+}
+.CovidModal_modalDetails {
+  margin-bottom: 20px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #060606;
+}
+/* Big tablets */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .modal-dialog {
+    margin: auto !important;
+    max-width: 800px !important;
+  }
+  .modal-content {
+    width: 800px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 480px) {
+  .modal-content {
+    padding: 10px;
+  }
+  .modal-dialog {
+    margin: auto !important;
+    max-width: 300px !important;
+  }
+  .modal-content {
+    width: 300px;
+  }
+  .CovidModal_modalImage {
+    width: 190px;
+    margin-right: 15px;
+    height: 250px;
+    background: #c4c4c4;
+  }
+
+  .CovidModal_modelClass {
+    backdrop-filter: blur(74px);
+  }
+  .CovidModal_modalAuthor {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #060606;
+  }
+  .CovidModal_modalTitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .CovidModal_modalDate {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    color: #060606;
+  }
+  .CovidModal_modalDescription {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: justify;
+    color: #000000;
+  }
+  .CovidModal_modalDetails {
+    margin-bottom: 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #060606;
+  }
+}
+@-moz-document url-prefix() {
+  .mod {
+    background-color: rgb(231, 231, 231);
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS */
+  .mod {
+    background-color: rgb(231, 231, 231);
+  }
+}
+@supports (-ms-accelerator: true) {
+  /* Edge 12+ CSS */
+  .mod {
+    background-color: rgb(231, 231, 231);
+  }
+}
+@supports (-ms-ime-align: auto) {
+  /* Edge 16+ CSS */
+  .mod {
+    background-color: rgb(231, 231, 231);
+  }
+}

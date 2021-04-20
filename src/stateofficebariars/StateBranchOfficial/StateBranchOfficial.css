@@ -1,0 +1,559 @@
+.StateBranchOfficials__firstdiv {
+  background-color: floralwhite;
+  color: black;
+  margin-top: 0;
+}
+.StateBranchOfficials {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.StateBranchOfficials__container {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  /* margin-right: 5rem; */
+}
+/* .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+} */
+.footer_upcloud {
+  /* display: flex;
+  justify-content: flex-start; */
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: left;
+}
+.StateBranchOfficials__row1 {
+  text-align: left;
+  align-items: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.StateBranchOfficials__navbar {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.StateBranchOfficials__row3 {
+  margin-top: 55px;
+  text-align: start;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.carousel-container {
+  width: 100%;
+  margin-right: 5%;
+}
+
+.StateBranchOfficials__doctorName {
+  font-family: "Poppins", sans-serif;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  word-wrap: break-word !important;
+  color: #2541b2;
+}
+
+.StateBranchOfficials__doctorContainer {
+  margin: 2%;
+  width: 238.95px;
+}
+.StateBranchOfficials__doctorImage {
+  position: relative;
+  /* width: 15rem; */
+  /* height: 20rem; */
+  width: 238.95px;
+  height: 323.87px;
+  border-radius: 13px;
+}
+
+.StateBranchOfficials__imageContainer {
+  position: relative;
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+.StateBranchOfficials__doctorDesignation {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 238.95px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  font-size: 25px;
+  padding-left: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+
+.react-multi-carousel-list {
+  margin-right: 140px;
+  display: flex;
+  align-items: center;
+  overflow: scroll !important;
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+.StateBranchOfficials__doctorState {
+  line-height: 0;
+}
+.StateBranchOfficials__hr1 {
+  border-top: 1px solid black;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.StateBranchOfficials__hr2 {
+  width: 30px;
+  border-top: 0.5px solid black;
+}
+.StateBranchOfficials__h2 {
+  font-style: bold;
+  color: darkblue;
+  align-self: top;
+}
+
+.StateBranchOfficials__textPara {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 25px;
+  margin-right: 2rem;
+}
+.nav-style {
+  font-size: 20px;
+  margin-right: 5px;
+  padding: 5rem;
+  color: rgb(146, 142, 142);
+}
+.nav-style:hover {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.StateBranchOfficials__active {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.react-multi-carousel-item {
+  width: max-content !important;
+  margin-right: 3rem;
+}
+/* @media screen and (max-width: 480px) {
+  .illustrate {
+    height: 369px;
+    width: 289px;
+  }
+} */
+
+/* desktop */
+@media only screen and (min-width: 1200px) {
+  .StateBranchOfficials__nav-container {
+    margin: auto 0;
+    overflow: scroll;
+    white-space: nowrap;
+    scrollbar-color: white;
+    margin-bottom: 30px;
+    /* word-wrap: break-word; */
+    /* flex-wrap: wrap; */
+  }
+  .StateBranchOfficials__para {
+    margin-left: 5rem;
+  }
+
+  .StateBranchOfficials__row4 {
+    padding-right: 0;
+    margin-top: 100px;
+  }
+  .StateBranchOfficials__h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 75px;
+  }
+  .StateBranchOfficials__illustration {
+    width: 45rem;
+    height: 35rem;
+  }
+  .StateBranchOfficials__stateName {
+    margin-left: 5rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 67px;
+    color: #2541b2;
+  }
+  .StateBranchOfficials__react-multi-carousel-item {
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+    /* padding-right: 20%; */
+  }
+  .StateBranchOfficials__mobileBtn {
+    display: none;
+  }
+  .StateBranchOfficials__para {
+    margin-left: 2rem;
+  }
+  .StateBranchOfficials__btn {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 34px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+
+  .StateBranchOfficials__active {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .StateBranchOfficials__mobileBtn {
+    display: none;
+  }
+
+  .StateBranchOfficials__para {
+    margin-left: 2rem;
+  }
+  .StateBranchOfficials__btn {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__nav-container {
+    margin-top: 30px;
+
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .StateBranchOfficials__stateName {
+    margin-left: 2rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 67px;
+    color: #2541b2;
+  }
+  .StateBranchOfficials__btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+
+  .StateBranchOfficials__active {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__row4 {
+    margin-top: 40px;
+    padding-left: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .StateBranchOfficials__row4 {
+    padding-right: 0;
+    margin-top: 80px;
+  }
+  .StateBranchOfficials__h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 50px;
+    /* line-height: 5px; */
+  }
+  .StateBranchOfficials__textPara {
+    font-size: 14px;
+  }
+}
+/*big tablet */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .StateBranchOfficials__illustration {
+    width: 22rem;
+    height: 30rem;
+  }
+  .StateBranchOfficials__h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 5px; */
+  }
+  .StateBranchOfficials__mobileBtn {
+    display: none;
+  }
+  .StateBranchOfficials__row4 {
+    padding-right: 0;
+    margin-top: 80px;
+  }
+  .StateBranchOfficials__para {
+    margin-left: 2rem;
+  }
+
+  .react-multi-carousel-item {
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+    /* padding-right: 20%; */
+  }
+  .StateBranchOfficials__para {
+    margin-left: 2rem;
+  }
+  .StateBranchOfficials__stateName {
+    margin-left: 3rem;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 67px;
+    color: #2541b2;
+  }
+  .StateBranchOfficials__btn {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+
+  .StateBranchOfficials__active {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__nav-container {
+    margin: auto 0;
+
+    overflow: scroll;
+    white-space: nowrap;
+    scrollbar-color: white;
+    margin-bottom: 30px;
+  }
+  .react-multi-carousel-item {
+    margin-left: 0 !important;
+    margin-right: 3rem;
+  }
+  .StateBranchOfficials__row4 {
+    margin-bottom: 10px;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 480px) {
+  .footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .StateBranchOfficials__illustration {
+    width: 22rem;
+    height: 20rem;
+  }
+  .StateBranchOfficials__h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+    font-size: 25px;
+  }
+  .react-multi-carousel-item {
+    margin-right: 3rem;
+  }
+  .StateBranchOfficials__mobileBtn {
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 2rem;
+    margin-bottom: 60px;
+  }
+  .StateBranchOfficials__hr1 {
+    display: none;
+  }
+  .StateBranchOfficials__textPara {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    margin-right: 1rem;
+    margin-top: 35px;
+  }
+  .StateBranchOfficials__para {
+    margin-left: 1rem;
+  }
+  .nav-style {
+    padding: 1.5rem;
+    color: #4a3a3a;
+  }
+  .nav-style::after {
+    font-weight: bold;
+  }
+  .StateBranchOfficials__btn {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 25px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__active {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 50px;
+    padding-right: 25px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__nav-container {
+    margin-top: 30px;
+    /* overflow-x: scroll; */
+    overflow: scroll;
+    white-space: nowrap;
+  }
+  .StateBranchOfficials__stateName {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 28px;
+    margin-left: 1rem;
+    color: #2541b2;
+  }
+  .StateBranchOfficials__btn:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 34px;
+    color: #4a3a3a;
+  }
+  .StateBranchOfficials__row4 {
+    padding-left: 100px;
+    margin-top: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .StateBranchOfficials__row4 {
+    padding-right: 0;
+  }
+
+  .StateBranchOfficials__doctorContainer {
+    margin: 2%;
+    width: 163px;
+  }
+  .StateBranchOfficials__doctorImage {
+    position: relative;
+    /* width: 15rem; */
+    /* height: 20rem; */
+    width: 163px;
+    height: 222px;
+    border-radius: 13px;
+  }
+
+  .StateBranchOfficials__imageContainer {
+    position: relative;
+    max-width: 100%;
+    /* margin: 0 auto; */
+  }
+  .StateBranchOfficials__doctorDesignation {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 163px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-size: 16px;
+    padding-left: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: white;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+  }
+  .StateBranchOfficials__doctorName {
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    word-wrap: break-word !important;
+    color: #2541b2;
+  }
+  .StateBranchOfficials__doctorState {
+    font-size: 11px;
+  }
+  .StateBranchOfficials__doctorMobile {
+    font-size: 11px;
+  }
+  .react-multi-carousel-track {
+    margin-top: 0 !important;
+  }
+}

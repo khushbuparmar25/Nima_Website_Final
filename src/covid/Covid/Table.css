@@ -1,0 +1,440 @@
+.Table__Container {
+  text-align: center;
+}
+.Table__a:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.Table__table {
+  margin-top: 70px;
+  text-align: left;
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+  width: 100% !important;
+  border-spacing: 0px 15px !important;
+  border-collapse: separate !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.footer_upcloud {
+  /* display: flex;
+  justify-content: flex-start; */
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+.Table__aContainer {
+  width: 120px;
+  height: 30px;
+  border: 2px solid #1b3686;
+  text-align: center;
+  margin-right: 0;
+}
+.Table__aContainer:nth-child(2n + 0) {
+  border: 2px solid #1b3686;
+}
+.Table__tableHeadingRow {
+  font-weight: 500;
+  font-size: 18px;
+  background-color: white !important;
+}
+
+.Table__tableDataRow:nth-child(2n + 0) {
+  background-color: #e8ecf8;
+}
+
+.Table__tableDataRow:nth-child(2n + 1) {
+  background-color: #e6faff;
+}
+
+.Table__srNo {
+  font-weight: bolder;
+  /* font-size: larger; */
+  text-align: center;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 45px;
+}
+.Table__tableComponents {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+}
+
+.Table__tableComponents:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Table__tableComponents:last-child {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+.Table__btn {
+  word-wrap: nowrap !important;
+}
+.Table__records {
+  border-collapse: collapse;
+  width: 400px;
+  margin-left: 3%;
+  color: #2541b2;
+  /* margin-right: 25%; */
+}
+
+.Table__recordCount {
+  font-weight: bolder;
+  border: 2px solid #d2deff;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #d2deff;
+}
+
+.Table__totalRecords {
+  border: 2px solid #d2deff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  text-align: center;
+}
+.Table__totalRecordsText {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  color: #2541b2;
+  text-align: center;
+}
+
+.Table__recordCountText {
+  margin: 0;
+  font-size: 16px;
+  padding: 10px;
+  font-size: 20px;
+  color: #2541b2;
+  text-align: center;
+  color: #2541b2;
+}
+
+@media (min-width: 1200px) {
+  .Table__cards {
+    display: none;
+  }
+
+  .Table__states {
+    border: 2px solid rgb(26, 26, 173);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    color: rgb(26, 26, 173);
+    background-color: white;
+  }
+  .Table__button {
+    background-color: transparent;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .Table__a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.Table__states {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Table__cards {
+    display: none;
+  }
+
+  .Table__states {
+    border: 2px solid rgb(26, 26, 173);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    color: rgb(26, 26, 173);
+    background-color: white;
+  }
+  .Table__button {
+    background-color: transparent;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .Table__a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .Table__cards {
+    display: none;
+  }
+
+  .Table__button {
+    background-color: transparent;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .Table__a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+    word-wrap: normal;
+  }
+  .Table__tableComponents {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .Table__srNo {
+    font-weight: bolder;
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    /* line-height: 45px; */
+  }
+
+  .Table__srNo:nth-child(2n + 0) {
+    color: #1b3686;
+  }
+
+  .Table__srNo:nth-child(2n + 1) {
+    color: #01677d;
+  }
+  .Table__records {
+    border-collapse: collapse;
+    width: 350px;
+    margin-left: 3%;
+    color: #2541b2;
+    /* margin-right: 25%; */
+  }
+
+  .Table__recordCount {
+    font-weight: bolder;
+    border: 2px solid #d2deff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    background-color: #d2deff;
+  }
+
+  .Table__totalRecords {
+    border: 2px solid #d2deff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    text-align: center;
+  }
+  .Table__totalRecordsText {
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    color: #2541b2;
+    text-align: center;
+  }
+
+  .Table__recordCountText {
+    margin: 0;
+    font-size: 16px;
+    padding: 10px;
+    font-size: 17px;
+    color: #2541b2;
+    text-align: center;
+    color: #2541b2;
+  }
+
+  .Table__states {
+    border: 2px solid rgb(26, 26, 173);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    color: rgb(26, 26, 173);
+    background-color: white;
+  }
+}
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .Table__table {
+    display: none;
+  }
+  /* .Table__cards {
+      display: block;
+    } */
+  .Table__aContainer {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 15px;
+    width: 40%;
+  }
+  .Table__cardRow {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .Table__cardTable {
+    text-align: left;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .Table__states {
+    border: 2px solid #2541b2;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 50%;
+    float: left;
+    margin-right: 3%;
+    color: rgb(26, 26, 173);
+    background-color: white;
+  }
+  .Table__a {
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+  .Table__btnDiv {
+    display: flex;
+    justify-content: center;
+  }
+  .Table__button {
+    background-color: transparent;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  .Table__cardContainer {
+    position: relative;
+    border-radius: 25px;
+    /* background-color:  #e6ffff; */
+    margin: 100px 20px;
+
+    padding: 20px !important;
+    border-radius: 25px;
+  }
+
+  .Table__records {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .Table__cardContainer:nth-child(2n + 0) {
+    background-color: #e5faff !important;
+    border: 1px solid #e8ecf8;
+    color: #01677d;
+  }
+
+  .Table__cardContainer:nth-child(2n + 1) {
+    background-color: #e8ecf8 !important;
+    border: 1px solid #e6faff;
+    color: #1b3686;
+  }
+  .Table__totalRecordsText {
+    margin: 0;
+    padding: 5px;
+    font-size: 16px;
+    color: #2541b2;
+  }
+
+  .Table__recordCountText {
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+    color: #2541b2;
+  }
+  .Table__cardNumber {
+    position: absolute;
+    top: -4.5rem;
+    left: 0rem;
+    font-size: 90px;
+    font-weight: bold;
+  }
+
+  .Table__totalRecordsText {
+    margin: 0;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .Table__recordCountText {
+    margin: 0;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  /* @media {
+      select {
+        border: 2px solid rgb(26, 26, 173);
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        width: 40%;
+        float: right;
+        margin-right: 3%;
+        color: rgb(26, 26, 173);
+        background-color: white;
+      }
+    } */
+}

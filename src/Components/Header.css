@@ -1,0 +1,40 @@
+.Header_base{
+    height: 100px !important;
+    border-bottom: black solid 1px;
+    background-color: transparent !important;
+    z-index: 1;
+    color:black !important;
+}
+.Header_history{
+    height: 100px !important;
+    border-bottom: black solid 1px;
+    background-color: transparent !important;
+    z-index: 1;
+    color:white !important;
+}
+.Header_history .Header_text{
+    color:white !important;
+}
+.bg-light{
+    background: transparent !important;
+}
+.Nima_icon{
+    border-radius:50%;
+    margin-left:70px;
+}
+.Header_title{
+    margin-left:25px;
+}
+.Header_text{
+    color: black !important;
+    /* color:white !important; */
+    font-size:20px;
+    padding:0px !important;
+    margin-right:30px;
+}
+.Header_links{
+    margin-left:260px;
+}
+.Header_icon{
+    margin-left: 5px;
+}

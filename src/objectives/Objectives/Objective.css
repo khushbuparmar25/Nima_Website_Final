@@ -1,0 +1,397 @@
+html {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer_upcloud{
+  display: flex;
+  justify-content: flex-start;
+  color: lightgray;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: -25vw;
+  position: fixed;
+  bottom: -2vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_upcloud{
+    font-size: 11px;
+    margin-left: -14vw;
+    justify-content: center;
+  }
+}
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%),url('../Image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li {
+  margin-bottom: 2%;
+}
+.text {
+  float: right;
+  text-align: right;
+  bottom: 0;
+}
+pre {
+  font-family: "Poppins", sans-serif;
+}
+.Objective__link {
+  float: right;
+}
+.Objective__lightColor {
+  color: #ffeadc;
+}
+
+.MobileView {
+  display: none;
+  bottom: 20px;
+  left: 40%;
+  position: fixed;
+}
+.Objective__linkImg {
+  width: 40px;
+  height: 40px;
+}
+ul {
+  padding-right: 20px;
+}
+hr {
+  height: 8px;
+  background-color: #ff812d;
+  border: none;
+  width: 80%;
+  margin-right: 0 !important;
+}
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  .Objective__MobileData {
+    display: none;
+  }
+
+  .Objective__registerLink {
+    float: right;
+  }
+  .Objective__link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+
+  .Objective__link:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+}
+
+/*bigger tablets*/
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Objective__MobileData {
+    display: none;
+  }
+  /* .Objective__row {
+    margin-left: 200px;
+    margin-right: 200px;
+  } */
+  .Objective__registerLink {
+    float: right;
+  }
+  .Objective__link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+
+  .Objective__link:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .Objective__MobileData {
+    display: none;
+  }
+  /* .Objective__row {
+    margin-left: 150px;
+    margin-right: 150px;
+  } */
+  .Objective__registerLink {
+    float: right;
+  }
+  .Objective__link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+
+  .Objective__link:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+  .Objejctive__textFont2 {
+    font-size: 20px;
+  }
+  .Objejctive__textFont1 {
+    font-size: 24px;
+  }
+}
+
+/* MOBILE SPECIFIC */
+
+@media only screen and (max-width: 480px) {
+  .Objective__Data {
+    display: none;
+  }
+  #paragraphContentMobile {
+    text-align: right;
+    bottom: 0;
+  }
+  .MobileView {
+    display: flex;
+  }
+
+  .Objective__registerLink {
+    float: right;
+  }
+  .Objective__link {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+
+  .Objective__link:hover {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffeadc;
+  }
+  hr {
+    height: 8px;
+    background-color: #ff812d;
+    border: none;
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  ul {
+    padding-right: 0;
+  }
+  .Objective__ul2 {
+    padding-right: 15px;
+  }
+  .lineAnimation {
+    animation-name: lineAnim;
+    animation-duration: 1s;
+  }
+  @keyframes lineAnim {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
+
+/* ANIMATIONS */
+
+.animation {
+  transform: translateY(-500%);
+  transition: 2s all ease-out;
+}
+.animationFade {
+  transform: translateY(120%);
+  transition: 1s all ease-out;
+  /* overflow: hidden; */
+  animation-name: animationFade;
+  animation-duration: 2s;
+}
+@keyframes animationFade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animationTop {
+  /* opacity: 0; */
+  animation-name: animationTop;
+  animation-duration: 1s;
+  /* animation-timing-function: ease-in-out;
+    animation-iteration-count: 5; */
+}
+@keyframes animationTop {
+  /* 0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    } */
+  from {
+    margin-top: -100%;
+    opacity: 0;
+  }
+  to {
+    margin-top: 0%;
+    opacity: 1;
+  }
+}
+
+.lineAnimation {
+  animation-name: lineAnim;
+  animation-duration: 1s;
+}
+@keyframes lineAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+.animatebottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -150%;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -150%;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.point2 {
+  animation: 10s ease 0s normal forwards 1 fadein2;
+  opacity: 0;
+  /* animation-name: ponitAnimation2;
+  animation-duration: 2s;
+  animation-delay: 6s; */
+  /* transition: opacity 0.8s; */
+}
+.point3 {
+  animation: 10s ease 0s normal forwards 1 fadein3;
+  opacity: 0;
+  /* animation-name: ponitAnimation2;
+  animation-duration: 2s;
+  animation-delay: 6s; */
+  /* transition: opacity 0.8s; */
+}
+.point4 {
+  animation: 10s ease 0s normal forwards 1 fadein4;
+  opacity: 0;
+  /* animation-name: ponitAnimation2;
+  animation-duration: 2s;
+  animation-delay: 6s; */
+  /* transition: opacity 0.8s; */
+}
+.point5 {
+  animation: 10s ease 0s normal forwards 1 fadein5;
+  opacity: 0;
+  /* animation-name: ponitAnimation2;
+  animation-duration: 2s;
+  animation-delay: 6s; */
+  /* transition: opacity 0.8s; */
+}
+@keyframes fadein2 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein4 {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein5 {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

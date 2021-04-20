@@ -1,0 +1,210 @@
+ /* for semibold [poppins] font-family: 'Poppins', sans-serif;
+for thin [poppins] font-family: 'Poppins', sans-serif; */
+
+/* just introduced this, make changes in media queries accordingly */
+.Hero_container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Hero__hr{
+    border: white;
+}
+/*Main two columns of the hero section*/
+
+.Hero_firstcol{
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 42px;
+}
+.Hero_secondcol{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 208px;
+    padding-left: 108px;
+}
+/*All the paragraphs of the first column of Hero section*/
+/* padding left added, make changes in media queries */
+.Hero_first{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300 !important;
+    padding-left: 5px;
+}
+.Hero_second{
+    font-size: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.Hero_initial{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+ .Hero_third{
+    font-size: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.Hero_fourth{
+    font-size: 112px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+}
+.button{
+    font-size: 18px;
+    margin-top: 59px;
+}
+
+/* for the svg icon on the right side */
+/* just added margin-left and margin-top , need to add those in media queries */
+.Hero_herosvg{
+    height: auto;
+    width: 50rem;
+    margin-top: 1rem;
+}
+.Hero_arrowsvg{
+    margin-left: 15px;
+}
+
+
+/*For extra small devices*/
+@media(max-width: 576px){
+    .Hero_container{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    .Hero__hr{
+        display: none;
+    }
+    .Hero_firstcol{
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-top:70px;
+    }
+    .Hero_secondcol{
+        margin-left: 0px;
+        margin-right: 20px;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .Hero_first{
+        margin-top: 80px;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+        padding-left:1px;
+    }
+    .Hero_second{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:13px;
+        margin-left: -18px;
+        margin-top: 10px !important;
+        color: #2541B2;
+    }
+    .Hero_herosvg{
+        height:166.94px;
+        width:354.46px;
+        margin-left: -0.9rem;
+        margin-top: 84px; 
+    }
+    .Hero_arrowsvg{
+        margin-left:10px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+}
+ 
+/*For small and medium devices*/
+@media (min-width: 576px) and (max-width: 800px){
+    .Hero_firstcol{
+        margin-left: 50px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .Hero_secondcol{
+        margin-left: 0px;
+        margin-right: 20px;
+        margin-top: 84px;
+        padding-top: 0px;
+    }
+    .Hero_first{
+        margin-top: 40px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+    }
+    .Hero_second{
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:18px;
+        margin-left: -11px;
+        margin-top: 10px !important;
+        color: #2541B2;
+    }
+    .Hero_arrowsvg{
+        margin-left:9px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+    .Hero_herosvg{
+        height: auto;
+        width: 120%;
+    }
+}
+
+/*For medium sized and above*/
+@media(min-width: 800px) and (max-width: 1200px){
+    .Hero_firstcol{
+        margin-left: 70px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .Hero_secondcol{
+        margin-left: 0px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .Hero_first{
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+    }
+    .Hero_second{
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:22px;
+        margin-left: -9px;
+        margin-top: 10px !important;
+        color: #2541B2;
+    }
+    .Hero_arrowsvg{
+        margin-left:9px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+    .Hero_herosvg{
+        height: auto;
+        width: 100%;
+        margin-top: -13rem;
+    }
+}

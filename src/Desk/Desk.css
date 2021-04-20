@@ -1,0 +1,654 @@
+.Desk__main {
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  font-family: "Poppins", sans-serif;
+}
+.Desk__linkDesktop {
+  height: 100%;
+}
+.Desk__Col {
+  width: 50%;
+  /* overflow-y: scroll; */
+  /* overflow: hidden; */
+}
+.Desk__col2 {
+  /* overflow: hidden; */
+}
+
+.Desk__row.Desk__selectedDoctorImage {
+  height: 80%;
+  /* overflow: hidden; */
+}
+
+/* .Desk__rowSelected {
+  position: relative;
+  overflow: hidden;
+} */
+.Desk__h1 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  align-content: bottom;
+}
+
+.Desk__hr {
+  background-color: white;
+  margin-top: 4rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+.Desk__button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.carousel-container {
+  width: 100%;
+  margin-right: 5%;
+}
+
+.Desk__doctorName {
+  color: #51b239;
+  /* font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; */
+  line-height: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.Desk__textPara {
+  margin-top: 25px;
+  margin-right: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+a .Desk__link {
+  color: #51b239 !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  /* font-size: 20px; */
+}
+a .Desk__link:hover {
+  color: #51b239 !important;
+  font-size: 20px;
+  font-weight: 600 !important;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  /* font-size: 20px; */
+}
+.Desk__doctorContainer {
+  margin: 2%;
+  width: 100%;
+}
+.Desk__doctorImage {
+  position: relative;
+  border-radius: 14px;
+  height: 25rem;
+  width: 21rem;
+}
+.Desk__doctorContainer:hover {
+  cursor: pointer;
+}
+.Desk__imageContainer {
+  position: relative;
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+
+.Desk__doctorDesignation {
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0); */
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  text-transform: uppercase;
+}
+
+/*desktop*/
+@media screen and (min-width: 1200px) {
+  .Desk_footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 70px;
+
+    padding-bottom: 0;
+    /* margin-left: 5%; */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  /* .Desk__linkDesktop {
+    display: block;
+  }*/
+  .Desk__selectedDoctorDescription {
+    /* overflow-y: scroll;
+    height: 100%; */
+    /* white-space: nowrap; */
+    background-color: black;
+    color: white;
+    height: 22rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    /* overflow-y: scroll; */
+  }
+  .Desk__marginTop {
+    margin-top: 15vh;
+  }
+  .Desk__container {
+    height: 100vh;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+  .Desk__linkMobile {
+    display: none;
+  }
+  .Desk__row {
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    display: flex;
+    margin: auto;
+    text-align: left;
+    position: relative;
+  }
+  .Desk__link {
+    position: absolute;
+    bottom: 0;
+  }
+  .Desk__selectedDoctorImage {
+    position: relative;
+    height: 26rem;
+    width: 20rem;
+    margin-left: 169px;
+    border-radius: 14px;
+    margin-top: 25vh;
+  }
+  .Desk__col {
+    height: 25rem;
+  }
+  .Desk__selectedDoctorDesignation {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 169px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    text-transform: uppercase;
+  }
+  .react-multi-carousel-item {
+    margin-right: 3rem;
+    /* margin-left: 2rem; */
+    /* padding-right: 20%; */
+  }
+  .Desk__closeButton {
+    float: left;
+  }
+
+  /* .react-multi-carousel-list {
+    margin-right: 140px !important;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll !important;
+    position: relative;
+    margin-top: 0 !important;
+  } */
+  ::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  .Desk__margin {
+    margin-left: 7rem;
+  }
+  .Desk__marginR {
+    margin-right: 7rem;
+  }
+  /* .container {
+    margin-left: 3rem;
+    margin-right: 2rem;
+  } */
+  .Desk__selectedDoctorDescription {
+    margin-top: 60px;
+
+    max-height: 100vh;
+    overflow-y: scroll;
+    font-size: 17px;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .Desk_footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    /* margin-left: 5%; */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .Desk__selectedDoctorDescription {
+    /* overflow-y: scroll;
+    height: 100%; */
+    /* white-space: nowrap; */
+    background-color: black;
+    color: white;
+    height: 25rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    /* overflow-y: scroll; */
+  }
+  .Desk__col {
+    height: 20rem;
+  }
+  .Desk__margin {
+    margin-right: 3rem;
+  }
+  .Desk__marginTop {
+    margin-top: 10vh;
+  }
+  .Desk__linkMobile {
+    display: none;
+  }
+  .Desk__row {
+    margin-left: 5% !important;
+    position: relative;
+  }
+  .Desk__link {
+    position: absolute;
+    bottom: 0;
+  }
+  .Desk__linkMobile {
+    display: none;
+  }
+  /* .Desk__margin {
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+  } */
+
+  .Desk__textPara {
+    margin-top: 20px;
+    line-height: 19px;
+    font-size: 13px;
+    /* margin-bottom: 50px; */
+  }
+  .Desk__container {
+    height: 100vh;
+
+    /* margin-left: 0 !important;
+    margin-right: 0 !important; */
+    padding: 0 !important;
+    overflow: hidden;
+  }
+  .Desk__doctorImage {
+    position: relative;
+    height: 19rem;
+    width: 15rem;
+    border-radius: 14px;
+  }
+
+  .Desk__imageContainer {
+    position: relative;
+    max-width: 100%;
+    /* margin: 0 auto; */
+  }
+  .Desk__doctorDesignation {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    text-transform: uppercase;
+  }
+  .Desk__selectedDoctorDescription {
+    margin-top: 60px;
+    /* margin-right: 2px; */
+    font-size: 13px;
+  }
+  .Desk__selectedDoctorImage {
+    position: relative;
+    height: 23rem;
+    width: 18rem;
+    border-radius: 7px;
+    /* margin-top: 40px; */
+    margin-left: 50px;
+    margin-top: 15vh;
+  }
+  .Desk__selectedDoctorDesignation {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 50px;
+    text-transform: uppercase;
+  }
+
+  .Desk__closeButton {
+    float: left;
+  }
+  .react-multi-carousel-list {
+    margin-right: 140px !important;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll !important;
+    position: relative;
+    margin-top: 0 !important;
+  }
+  ::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  .react-multi-carousel-item {
+    margin-right: 3rem;
+    margin-left: 0 !important;
+  }
+}
+/*bigger tablets*/
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Desk_footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 50px;
+    /* margin-left: 5%; */
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+  }
+  .Desk__selectedDoctorDescription {
+    /* overflow-y: scroll;
+    height: 100%; */
+    /* white-space: nowrap; */
+    background-color: black;
+    color: white;
+    height: 25rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    /* overflow-y: scroll; */
+  }
+  .Desk__col {
+    height: 22rem;
+  }
+  .Desk__rowSelected {
+    /* margin-left: 5% !important; */
+    position: relative;
+  }
+
+  .Desk__link {
+    position: absolute;
+    bottom: 0;
+  }
+  .Desk__linkMobile {
+    display: none;
+  }
+  .Desk__margin {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .Desk__textPara {
+    margin-top: 20px;
+    line-height: 19px;
+    font-size: 13px;
+    margin-bottom: 50px;
+  }
+  .Desk__container {
+    height: 100vh;
+    /* margin-left: 0 !important;
+    margin-right: 0 !important; */
+    width: 750px;
+    padding: 0 !important;
+  }
+  .Desk__doctorImage {
+    position: relative;
+    height: 20rem;
+    width: 17rem;
+    border-radius: 14px;
+  }
+
+  .Desk__imageContainer {
+    position: relative;
+    max-width: 100%;
+    /* margin: 0 auto; */
+  }
+  .Desk__doctorDesignation {
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    /* background: rgb(0, 0, 0); */
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+  }
+  .Desk__selectedDoctorDescription {
+    margin-top: 60px;
+    /* margin-right: 2px; */
+    font-size: 17px;
+  }
+  .Desk__selectedDoctorImage {
+    position: relative;
+    height: 25rem;
+    width: 20rem;
+    border-radius: 7px;
+    margin-top: 15vh;
+    margin-left: 60px;
+  }
+  .Desk__marginTop {
+    margin-top: 10vh;
+  }
+  .Desk__selectedDoctorDesignation {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-left: 60px;
+    text-transform: uppercase;
+  }
+}
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .Desk__linkDesktop {
+    display: none;
+  }
+  .Desk__linkMobile {
+    display: block;
+    /* margin-bottom: 2rem; */
+  }
+
+  .Desk__h1 {
+    font-weight: 600;
+    /* font-size: 25px; */
+  }
+  .Desk__h1Mobile {
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin-bottom: 0 !important ;
+    line-height: 35px;
+  }
+  .Desk__textPara {
+    margin-right: 2rem;
+    margin-top: 20px;
+    line-height: 19px;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .Desk__row {
+    text-align: left;
+    margin-left: 1.7rem !important;
+  }
+  /* .mobileCarousel {
+    margin-top: 2rem;
+  } */
+  .Desk__doctorImage {
+    /* position: relative; */
+    height: 16rem;
+    width: 12rem;
+    border-radius: 7px;
+  }
+  .Desk__doctorName {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+  }
+  .Desk__selectedDoctorImage {
+    position: relative;
+    height: 16rem;
+    width: 12rem;
+    border-radius: 7px;
+    margin-top: 40px;
+  }
+  .Desk__selectedDoctorDesignation {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom-right-radius: 7px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 7px;
+  }
+
+  .Desk__doctorDesignation {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    border-bottom-right-radius: 7px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 7px;
+  }
+  .Desk__h1 {
+    margin: 0;
+    display: inline-block;
+  }
+  .react-multi-carousel-list {
+    margin-right: 0 !important;
+    display: flex;
+    margin-top: 40px !important;
+    align-items: center;
+    overflow-x: scroll !important;
+    position: relative;
+  }
+  ::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  .Desk_footer_upcloud {
+    /* display: flex;
+    justify-content: flex-start; */
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+    padding-left: 0;
+    padding-bottom: 0;
+    /* margin-left: 5%; */
+
+    margin-bottom: 0;
+  }
+}

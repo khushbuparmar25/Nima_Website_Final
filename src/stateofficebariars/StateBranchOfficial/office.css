@@ -1,0 +1,80 @@
+.container{
+    margin-top: 100px;
+    margin-left: 82px;
+    margin-right: 48px;
+}
+
+.row1{
+    margin-top: 112px;
+    margin-right: 56px;
+}
+.navbar{
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.row3{
+    margin-top: 55px;
+}
+.textPara {
+    margin-top: 2rem;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    height: 500px;
+}
+.navbar{
+    margin-top:62px;
+    margin-bottom: 62px;
+}
+.hr1{
+    width: 100%;
+    border-top: 0.5px solid black;
+}
+.hr2{
+  width: 30px;
+  align-self: center;  
+  border-top: 0.5px solid black;
+}
+.h2,h2{
+    font-style: bold;
+    color: darkblue;
+}
+.cards{
+    margin-top: 40px;
+}
+.react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: scroll !important;
+    position: relative;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+
+  .imageContainer {
+    position: relative;
+    max-width: 100%;
+    /* margin: 0 auto; */
+  }
+  .container .doctorDesignation {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .doctorContainer {
+    margin: 2%;
+    width: 100%;
+  }
+  .doctorImage {
+    /* position: relative; */
+    height: 24rem;
+    width: 18rem;
+  }

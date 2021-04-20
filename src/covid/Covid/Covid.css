@@ -1,0 +1,479 @@
+.Covid__div2 {
+  background-color: #f4f7ff;
+  margin-bottom: 50px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+.Covid__div {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.Covid__heading {
+  text-align: left;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.Covid__row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 80%;
+}
+
+/*body {
+padding: 50px;
+}*/
+.Covid__line {
+  width: 100%;
+  height: 47px;
+  border-bottom: 1px solid black;
+  position: absolute;
+}
+.Covid__hr {
+  background-color: black;
+  margin-top: 4rem;
+  /* margin-right: 10rem;
+  margin-left: 6rem; */
+}
+
+/*desktop*/
+@media only screen and (min-width: 1200px) {
+  .Covid__marginDesktop {
+    margin-left: 2.5rem;
+  }
+  .Covid__heading {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  .Covid__heading1 {
+    text-align: left;
+    font-size: 50px;
+  }
+  .Covid__heading4 {
+    color: #2541b2;
+    font-size: 28px;
+    text-align: left;
+  }
+  .Covid__secondillustration {
+    width: 252px;
+    height: 288px;
+    margin-right: 10%;
+    float: right;
+
+    /* margin-left: 80%; */
+  }
+  .Covid__para {
+    margin-top: 30px;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: left;
+  }
+  .Covid__firstIllustration {
+    width: 807px;
+    height: 545px;
+  }
+  .Covid__heading3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 0 !important;
+    text-align: left;
+    color: #2541b2;
+  }
+  .Covid__col {
+    height: 400px;
+  }
+  .Covid__txt {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0 !important;
+    line-height: 0;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .Covid__button {
+    margin-top: 2rem;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: "bold";
+    border-radius: 20px;
+    font-weight: 600;
+    border: solid 2px #2541b2;
+    color: #2541b2;
+    margin-left: 10%;
+    float: right;
+  }
+  .Covid__text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+  }
+  .Covid__end {
+    text-align: left;
+    margin-left: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 28px;
+    color: #2541b2;
+  }
+
+  .Covid__buttonNav {
+    display: none;
+  }
+  .Covid__para2 {
+    margin-top: 45px;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+/*bigger tablets*/
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Covid__buttonNav {
+    display: none;
+  }
+  .Covid__col {
+    height: 300px;
+  }
+  .Covid__txt {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    font-size: 13px;
+    margin-left: 1rem;
+    /* margin-bottom: 0 !important; */
+    line-height: 0;
+  }
+  .Covid__heading {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 1rem;
+  }
+  .Covid__text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 13px;
+  }
+  .Covid__heading1 {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 1rem;
+  }
+  .Covid__end {
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2541b2;
+  }
+
+  .Covid__secondillustration {
+    width: 9rem;
+    height: 10rem;
+    float: right;
+    margin-right: 10%;
+    /* margin-left: 90%; */
+  }
+  .Covid__firstIllustration {
+    width: 33rem;
+    height: 33rem;
+  }
+
+  .Covid__button {
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: "bold";
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: 600;
+    border: solid 2px #2541b2;
+    color: #2541b2;
+    float: right;
+  }
+  .Covid__para {
+    margin-top: 30px;
+    font-size: 13px;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .Covid__para2 {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .Covid__heading4 {
+    color: #2541b2;
+    font-size: 25px;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .Covid__heading3 {
+    text-align: left;
+    color: #2541b2;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 0 !important;
+  }
+}
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .Covid__buttonNav {
+    display: none;
+  }
+  .Covid__col {
+    height: 300px;
+  }
+  .Covid__txt {
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    font-size: 10px;
+    margin-left: 1rem;
+    /* margin-bottom: 0 !important; */
+    line-height: 0;
+  }
+  .Covid__heading {
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 1rem;
+  }
+  .Covid__text {
+    font-size: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .Covid__text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 13px;
+  }
+  .Covid__heading1 {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 1rem;
+  }
+  .Covid__end {
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2541b2;
+  }
+
+  .Covid__secondillustration {
+    width: 9rem;
+    height: 10rem;
+    margin-right: 20%;
+    float: right;
+    /* margin-left: 100%; */
+  }
+  .Covid__firstIllustration {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .Covid__button {
+    margin-top: 2rem;
+    font-size: 15px;
+    font-weight: "bold";
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    font-weight: 600;
+    border: solid 2px #2541b2;
+    color: #2541b2;
+    float: right;
+  }
+  .Covid__para {
+    margin-top: 30px;
+    font-size: 10px;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .Covid__para2 {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .Covid__heading4 {
+    color: #2541b2;
+    font-size: 20px;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .Covid__heading3 {
+    text-align: left;
+    color: #2541b2;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 0 !important;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width: 480px) {
+  .Covid__firstIllustration {
+    width: 21rem;
+    height: 20rem;
+    margin: auto;
+    display: block;
+  }
+  .Covid__buttonNav {
+    text-align: left !important;
+    margin-left: 2rem;
+    margin-top: 60px;
+  }
+  .Covid__hr {
+    display: none;
+  }
+  .Covid__txt {
+    text-align: left;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+
+  .Covid__para {
+    margin-top: 30px;
+    font-size: 13px;
+    line-height: 19px;
+    margin-left: 1rem;
+    text-align: left;
+    margin-right: 3rem;
+  }
+  .Covid__heading {
+    margin-top: 30px;
+
+    font-size: 30px;
+    margin-left: 1rem;
+  }
+  .Covid__heading1 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .Covid__heading3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1rem;
+    color: #2541b2;
+    margin-bottom: 0 !important;
+  }
+  .Covid__heading4 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 1rem;
+    color: #2541b2;
+    margin-bottom: 0 !important;
+  }
+  .Covid__para2 {
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 30px;
+    margin-right: 1rem;
+    font-size: 14px;
+  }
+  .Covid__end {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2541b2;
+  }
+  .Covid__text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-size: 13px;
+  }
+  .Covid__secondillustration {
+    width: 9rem;
+    height: 11rem;
+    margin: auto;
+    display: block;
+  }
+  .Covid__button {
+    margin-top: 2rem;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: "bold";
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid 2px #2541b2;
+    color: #2541b2;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: "Select some files";
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
