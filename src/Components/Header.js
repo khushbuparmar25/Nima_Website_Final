@@ -21,20 +21,7 @@ const Header = () => {
                     </li>    
                     <li className="nav-item">
                     <a className="nav-link Header_text" href="/desk">Desk</a>
-                    </li>            
-                    {/* <li className="nav-item dropdown" onClick={()=>{
-                        setDeskDropdown(!deskDropdown)
-                        console.log("click")
-                    }}>
-                    <a className="nav-link Header_text" data-bs-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Desk
-                    {deskDropdown ? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
-                    </a>                  
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item" href="#">Secretory</a>
-                        <a className="dropdown-item" href="#">President</a>
-                        <a className="dropdown-item" href="#">Tresurer</a>
-                    </div>
-                    </li> */}
+                    </li>
                     <li className="nav-item dropdown" onClick={()=>{
                         setNewsDropdown(!newsDropdown)
                         console.log("click")
@@ -74,7 +61,7 @@ const Header = () => {
                     <div className="dropdown-menu">
                         <a className="dropdown-item" href="/history">History</a>
                         <a className="dropdown-item" href="/objectives">Objectives</a>
-                        <a className="dropdown-item" href="#">About Us</a>
+                        <a className="dropdown-item" href="/aboutus">About Us</a>
                         <a className="dropdown-item" href="/stateofficebariars">State Office Bariars</a>
                     </div>
                     </li>
@@ -86,10 +73,10 @@ const Header = () => {
                     {membershipDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
                     </a>
                     <div className="dropdown-menu">
-                        <a className="dropdown-item" href="#">Life Members</a>
+                        <a className="dropdown-item" href="/life">Life Members</a>
                         <a className="dropdown-item" href="/mbs">Mutual Benefits</a>
                         <a className="dropdown-item" href="/womensforum">Women Forum</a>
-                        <a className="dropdown-item" href="#">Students Forum</a>
+                        <a className="dropdown-item" href="/studentsforum">Students Forum</a>
                     </div>
                     </li>
                     <li class="nav-item">

@@ -1,0 +1,331 @@
+.AboutUs_firstdiv {
+  background-color: #ffdfd4;
+  width: 100%;
+  height: 90% !important;
+  margin-bottom: 100px !important;
+  /* opacity: 17%; */
+}
+.illustration {
+  /* width: 712px; */
+  width: 100%;
+  height: 533.5px;
+  padding-bottom: 50px;
+}
+hr {
+  background-color: black;
+  margin-top: 4rem;
+  margin-right: 10rem;
+  margin-left: 6rem;
+}
+.offset-md-3 {
+  padding-right: 0px !important;
+}
+.row {
+  text-align: left;
+  /* margin-top: 4rem; */
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.AboutUs_col {
+  padding-right: 0px !important;
+}
+.AboutUs_doctorImage {
+  position: relative;
+  width: 240px;
+  height: 325px;
+  border-radius: 15px;
+}
+.AboutUs_doctorName {
+  color: #2541b2;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.AboutUs_imageContainer {
+  position: relative;
+  max-width: 100%;
+  /* margin: 0 auto; */
+}
+.AboutUs_cont {
+  width: 240px;
+}
+.dehaze {
+  float: left;
+  left: 4.08%;
+  right: 21.37%;
+  margin-top: 50.43px !important;
+}
+.AboutUs_imageContainer .AboutUs_doctorDesignation {
+  position: absolute;
+  bottom: 0;
+  color: #ffff;
+  width: 240px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  background: rgba(80, 72, 72, 0.25);
+  /* opacity: 0.7; */
+  height: 40px !important;
+  border-radius: 0px 0px 15px 15px;
+}
+.AboutUs_doctorPlace {
+  font-size: 15px;
+  margin-bottom: 78px !important;
+}
+.react-multi-carousel-list {
+  margin-top: 3rem;
+  /* margin-right: 140px; */
+  display: flex;
+  align-items: center;
+  overflow: scroll !important;
+  position: relative;
+}
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.react-multi-carousel-item {
+  width: max-content !important;
+  margin-right: 4rem;
+}
+.footer_upcloud {
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 5%;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+  .AboutUs_para {
+    margin-left: 5rem !important;
+  }
+  .AboutUs_illustration {
+    width: 100%;
+    height: 533px;
+  }
+  h3 {
+    color: #2541b2;
+    text-align: left;
+    margin-left: 4rem;
+    font-weight: bolder !important;
+    font-size: 35px !important;
+    margin-top: 75px;
+  }
+  .AboutUs_mobileview {
+    display: none;
+  }
+}
+/*small tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .AboutUs_illustration {
+    width: 23rem;
+    height: 35rem;
+  }
+  .AboutUs_para {
+    margin-left: 2rem;
+  }
+  .illustration {
+    width: 100%;
+    height: 443px;
+    padding-bottom: 50px;
+  }
+  .p {
+    width: 494px;
+    margin-right: 20px;
+    margin-left: 0px;
+    height: 307px;
+    font-size: 11px !important;
+  }
+  h3 {
+    color: #2541b2;
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-weight: bolder;
+  }
+  .AboutUs_mobileview {
+    display: none;
+  }
+  .AboutUs_doctorImage {
+    width: 200px;
+    height: 270px;
+  }
+  .AboutUs_doctorDesignation {
+    width: 200px !important;
+    font-size: 23px !important;
+  }
+  .AboutUs_cont {
+    width: 200px !important;
+  }
+  .row {
+    padding-top: 73px !important;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 1195px) {
+  .AboutUs_doctorImage {
+    width: 200px;
+    height: 270px;
+  }
+  .header {
+    padding-top: 73px !important;
+  }
+  .line {
+    display: none !important;
+  }
+  .AboutUs_doctorDesignation {
+    width: 200px !important;
+    font-size: 23px !important;
+  }
+  .AboutUs_cont {
+    width: 200px !important;
+  }
+  .h1 {
+    margin-top: 73px !important;
+  }
+  .h3 {
+    margin-bottom: 41px !important;
+  }
+  /* .first {
+    margin-top: 73px;
+  } */
+  .p {
+    width: 494px;
+    margin-right: 20px;
+    margin-left: 0px;
+    height: 307px;
+    font-size: 17px !important;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 480px) {
+  .AboutUs_illustration {
+    width: 22rem;
+    height: 20rem;
+    margin-bottom: 42px !important;
+  }
+  .AboutUs_para {
+    margin-left: 1rem;
+  }
+  h3 {
+    color: #2541b2;
+    margin-left: 32px;
+    margin-top: 33px !important;
+    font-size: 19px !important;
+    float: left;
+    position: absolute;
+    padding-bottom: 100px !important;
+    font-weight: bolder;
+  }
+  .AboutUs_firstdiv {
+    display: none;
+  }
+  .caro {
+    margin-left: 40%;
+  }
+  .AboutUs_doctorImage {
+    width: 121px;
+    height: 164px;
+    left: 0px;
+    top: 2px;
+    border-radius: 7px;
+  }
+  .AboutUs_imageContainer .AboutUs_doctorDesignation {
+    width: 121px;
+    font-size: 12px;
+    height: 22.2px !important;
+    border-radius: 0px 0px 7px 7px;
+    padding: 1px 0px 3px 6px !important;
+    /* transform: rotate(180deg); */
+  }
+  .AboutUs_doctorName {
+    width: 121px;
+    height: 30px;
+    left: 0px;
+    top: 171px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+
+    color: #2541b2;
+  }
+  .AboutUs_doctorPlace {
+    font-size: 10px;
+  }
+  .react-multi-carousel-item {
+    width: max-content !important;
+    margin-right: 2rem;
+  }
+  .react-multi-carousel-track {
+    margin-top: 31px !important;
+    margin-bottom: 0% !important;
+  }
+  .AboutUs_cont {
+    width: 121px;
+  }
+  /* .AboutUs_lastdiv {
+    height: 375px;
+  } */
+  /* .first {
+    margin-top: 33px !important;
+  } */
+  .footer_upcloud {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+
+.AboutUs_mobileview {
+  /* position: absolute; */
+  height: 819px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(255, 68, 0, 0.17);
+}
+.AboutUs_lastdiv {
+  margin-top: 100px;
+  /* height: 15rem; */
+  background: rgba(255, 68, 0, 0.17);
+}
+
+@media only screen and (min-width: 1440px) {
+  .illustration {
+    margin-top: 200px;
+  }
+  .h1 {
+    margin-top: 200px;
+  }
+  .AboutUs_firstdiv {
+    padding-bottom: 65px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .AboutUs_firstdiv {
+    padding-bottom: 160px;
+  }
+  .AboutUs_heading {
+    padding-top: 210px !important;
+  }
+  .illustration {
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .illustration {
+    margin-top: 20px;
+  }
+}

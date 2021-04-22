@@ -5,7 +5,7 @@ export default class covid extends Component {
     render() {
         return (
             <>            
-            <Covid />
+                <Covid />
             </>
         )
     }

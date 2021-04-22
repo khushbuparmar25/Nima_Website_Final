@@ -12,8 +12,12 @@ import BranchNews from "./BranchNews/BranchNews.js";
 import CentralNews from "./CentralNews/CentralNews.js";
 import History from "./history/History/History.js";
 import gallery from "./gallery/gallery.js";
+import aboutus from "./aboutus/aboutus.js";
+import life from "./life/life.js";
+import studentsforum from "./studentsforum/studentsforum.js";
 // import objectives from "./objectives/Objectives/Objective.js";
 // import download from "./downloads/download.js";
+
 
 function App() {
   return (
@@ -32,6 +36,9 @@ function App() {
           <Route path="/centralnews" component={CentralNews} exact />
           <Route path="/history" component={History} exact />
           <Route path="/gallery" component={gallery} exact /> 
+          <Route path="/aboutus" component={aboutus} exact />
+          <Route path="/life" component={life} exact />
+          <Route path="/studentsforum" component={studentsforum} exact />
           {/* <Route path="/objectives" component={objectives} exact /> */}
           {/* <Route path="/download" component={download} exact />  */}
         </Switch>
