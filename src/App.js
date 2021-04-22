@@ -15,9 +15,10 @@ import gallery from "./gallery/gallery.js";
 import aboutus from "./aboutus/aboutus.js";
 import life from "./life/life.js";
 import studentsforum from "./studentsforum/studentsforum.js";
-// import objectives from "./objectives/Objectives/Objective.js";
-// import download from "./downloads/download.js";
-
+// import Folders from "./gallery/Components/Folders.js";
+// import Grid from "./gallery/Components/Grid.js";
+import objectives from "./objectives/Objectives/Objective.js";
+import download from "./downloads/download.js";
 
 function App() {
   return (
@@ -39,8 +40,10 @@ function App() {
           <Route path="/aboutus" component={aboutus} exact />
           <Route path="/life" component={life} exact />
           <Route path="/studentsforum" component={studentsforum} exact />
-          {/* <Route path="/objectives" component={objectives} exact /> */}
-          {/* <Route path="/download" component={download} exact />  */}
+          {/* <Route path="/upcloud-nima-gallery" component={Folders} exact />
+          <Route path="/allimages" component={Grid} exact /> */}
+          <Route path="/objectives" component={objectives} exact />
+          <Route path="/download" component={download} exact /> 
         </Switch>
       </Router>
     </div>

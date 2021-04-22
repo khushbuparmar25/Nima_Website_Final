@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <div>
-            <nav className={`navbar navbar-expand-md navbar-light bg-light ${window.location.pathname.toLowerCase()==='/history' && '/objectives' ? 'Header_history'  : 'Header_base'}`}>  
+            <nav className={`navbar navbar-expand-md navbar-light bg-light ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/objectives' ? 'Header_history'  : 'Header_base'}`}>  
                 <a className="navbar-brand Header_text" href="/"><img src={nima_icon} alt="x" width="58" height="58" className="Nima_icon"/><span className="Header_title">Nima India</span></a>
                 <ul className="navbar-nav Header_links">
                     <li className="nav-item">

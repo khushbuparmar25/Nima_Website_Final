@@ -6,20 +6,21 @@ class Grid extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      galleryData: this.props.location.state.images,
+      galleryData: this.props.location && this.props.location.state && this.props.location.state.images ? this.props.location.state.images: [],
     };
     console.log(this.state.galleryData);
   }
 
   renderImages = () => {
-    return this.state.galleryData.images.map((Gimage, index) => (
+    if(this.state.galleryData && this.state.galleryData.images && this.state.galleryData.images.length >0 )
+    {return this.state.galleryData.images.map((Gimage, index) => (
       <img
         src={Gimage}
         alt={index}
         className="MobileGrid_img"
         // data-action=""
       />
-    ));
+    ));}
   };
 
   render() {
@@ -30,7 +31,7 @@ class Grid extends Component {
       <div className="Grid_container">
         <div className="Grid_title">{this.state.galleryData.title}</div>
         <div className="Grid_des">{this.state.galleryData.description}</div>
-        {window.matchMedia("(min-width: 700px)").matches && 
+        {/* {window.matchMedia("(min-width: 700px)").matches && 
             <Coverflow
             width={960}
             height={700}
@@ -65,11 +66,11 @@ class Grid extends Component {
               width: '100%',
             }}
           /> 
-        </div>*/}
+        </div>
             {this.renderImages()}
           </Coverflow>
   
-        }
+        } */}
         {window.matchMedia("(max-width: 700px)").matches &&
           <div className="MobileGrid_container">
             {this.renderImages()}

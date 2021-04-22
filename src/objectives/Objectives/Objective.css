@@ -1,9 +1,9 @@
-html {
+/* html {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .footer_upcloud{
   display: flex;
   justify-content: flex-start;
@@ -23,13 +23,31 @@ html {
     justify-content: center;
   }
 }
-
+/* 
 body {
   background-color: white;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%),url('../Image/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+} */
+.Objectives_container{
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%),url('../Image/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top:0;
+}
+.Objective_base{
+  display: flex;
+  justify-content: center;
 }
 li {
   margin-bottom: 2%;

@@ -71,18 +71,17 @@ export default class Folders extends Component {
   }
 
   async componentDidMount(){
-    const res = await axios
+    await axios
       .get('https://nimaaaa-project.herokuapp.com/gallery')
       .then((response) => {
-        console.log("api Incoming", response.data)
-        return response.data
+        // console.log("api Incoming", response.data)
+        this.setState({
+          galleryData:response.data
+        }, ()=> console.log("The Array Needed",response.data))          
       })
       .catch((error) => {
         console.log(error);
       });
-    this.setState({
-      galleryData:res.data
-    }, ()=> console.log("The Array Needed",res.data))  
   }
 
   // handleClick = () =>{
@@ -93,7 +92,8 @@ export default class Folders extends Component {
   
   renderFolders = () =>{
     return(
-    this.state.galleryData.map((data,index)=>(
+      this.state.galleryData.length>0 ? <> 
+    {this.state.galleryData.map((data,index)=>(
       <div className="col-sm-4 col-xs-12 Folder_col">
       <div class="card">
         <figure class="card__thumbnail">
@@ -115,7 +115,7 @@ export default class Folders extends Component {
         </figure>
       </div>  
   </div>
-    )))
+    ))}</> : null)
   }
 
   render() 

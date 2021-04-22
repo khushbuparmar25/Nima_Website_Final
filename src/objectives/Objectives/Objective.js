@@ -670,8 +670,8 @@ class Objective extends React.Component {
   };
   render() {
     return (
-      <div>
-      <div className="container">
+      <div className="Objectives_container">
+      <div className="container Objective_base">
 
     {browser.name === "safari" &&       
         <div className="row Objective__row">

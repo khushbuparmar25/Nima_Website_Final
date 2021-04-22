@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  .Download_main{
+    /* margin-top: 3%; */
+  }
+
+  .Download_title{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Download_description{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 47px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .Download_btn{
+    padding: 0px !important;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+  }
+
+  .Download_btn :hover{
+    text-decoration: none !important;
+  }
+  
+  .Download_img{
+    width: 374px ;
+    height: 221px ;
+    border-radius: 5px;
+  }
+  
+  .Download_header{
+    height: 100px;
+    text-align: center;
+  }
+  .Download_left-side{
+    display: flex;
+    align-items: center;
+  }
+
+  .Download_right-side{
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  
+
+  .Download_hr{
+    background-color: #eee;
+    width: 81.6rem;
+    height: 1px;
+  }
+  
+    @media screen and (max-width: 1280px) {
+  .Download_right{
+    width: 70%;
+  }
+  .Download_right-side{
+    width: 85%;
+    margin-top: 2%;
+    text-align: justify;
+  }
+  .Download_img{
+    width: 100%;
+    height: 100%;
+  }
+  .Download_hr{
+    background-color: black;
+    width: 80vw;
+  }
+  .Download_title{
+    font-size: 25px;
+    display:flex;
+    justify-content:center;
+  }
+
+  .Download_description{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    line-height: 19 px;
+  }
+  } 
+
+
+  @media screen and (max-width: 580px) {
+    .Download_right{
+      width: 100%;
+    }
+    .Download_right-side{
+      width: 100%;
+      margin-top: 2%;
+      padding-left: 0;
+    }
+    .Download_img{
+      width: 100%;
+      height: 100%;
+    }
+    .Download_hr{
+      background-color: #eee;
+      height: 1px;
+      width: 80vw;
+    }
+    .Download_title{
+      font-size: 16px;
+      display:flex;
+      justify-content:flex-start;
+    }
+  
+    .Download_description{
+      width: 100%;
+      font-size: 13px;
+      text-align: left;
+      margin-top: 12px;
+      margin-bottom: 35px;
+      line-height: 25px;
+    }
+
+    .Download_btn{
+      padding: 0px !important;
+      position: absolute;
+      bottom: 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px !important;
+      font-weight: 500 !important;
+    }
+    } 
+  

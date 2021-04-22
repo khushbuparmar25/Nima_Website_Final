@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif  !important;
+}
+
+.Download_fhr{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #eee;
+  height: 1px;
+  margin-top: 60px;
+}
+
+.download_title{
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif  !important;
+}
+
+.ham_div{
+  display: none;
+}
+
+.footer_upcloud{
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 1280px) {
+.Download_fhr{
+  width: 80vw;
+}
+
+}
+
+
+@media screen and (max-width: 580px) {
+  .Download_fhr{
+    display: none;
+  }
+
+  .download_title{
+    font-size: 25px;
+    display: none;
+  }
+
+  .ham_div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    margin-bottom:35px ;
+    margin-top: 30px;
+  }
+
+  .ham_icon{
+    width: 1.3rem;
+    height: auto;
+  }
+
+  .footer_upcloud{
+    font-size: 14px;
+    justify-content: center;
+  }
+  
+  }
