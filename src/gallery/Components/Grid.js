@@ -12,15 +12,15 @@ class Grid extends Component {
   }
 
   renderImages = () => {
-    if(this.state.galleryData && this.state.galleryData.images && this.state.galleryData.images.length >0 )
+    if(this.state.galleryData && this.state.galleryData.images && this.state.galleryData.images.length > 0 )
     {return this.state.galleryData.images.map((Gimage, index) => (
-      <img
-        src={Gimage}
-        alt={index}
-        className="MobileGrid_img"
-        // data-action=""
-      />
-    ));}
+        <img
+          src={Gimage}
+          alt={index}
+          className="MobileGrid_img"
+          // data-action=""
+        />
+      ));}
   };
 
   render() {
@@ -32,7 +32,7 @@ class Grid extends Component {
         <div className="Grid_title">{this.state.galleryData.title}</div>
         <div className="Grid_des">{this.state.galleryData.description}</div>
         {/* {window.matchMedia("(min-width: 700px)").matches && 
-            <Coverflow
+          <Coverflow
             width={960}
             height={700}
             displayQuantityOfSide={2}
@@ -66,7 +66,7 @@ class Grid extends Component {
               width: '100%',
             }}
           /> 
-        </div>
+          </div>
             {this.renderImages()}
           </Coverflow>
   

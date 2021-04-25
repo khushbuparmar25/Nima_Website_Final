@@ -19,7 +19,7 @@ export default class download extends Component {
           .then((response) => {
             console.log("api Incoming", response.data)
             this.setState({
-                filesData:response.data
+                filesData:response.data.data
               }, ()=> console.log("The Array Needed",response.data))  
             
           })
@@ -31,11 +31,10 @@ export default class download extends Component {
     
       renderFiles =()=>{
         return(
-          this.state.filesData.map((file,index)=>(
+          this.state.filesData && this.state.filesData.length > 0 ? this.state.filesData.map((file,index)=>(
             <Downloads name={file.image} title={file.title} description={file.description} dName={index}/>
-          )
-          )
-        )
+          )): null
+        ) 
       }
     
       render() {

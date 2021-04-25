@@ -1,23 +1,24 @@
 .Header_base{
     height: 100px !important;
     border-bottom: #a3a5a8 solid 1px !important;
-    background-color: transparent !important;
+    /* background-color: transparent !important;   */
     z-index: 1;
     padding: 8px 0 !important;
     width:100vw !important;
 }
+.Header_mobile{
+  height: auto;
+  background-color: #fff;
+}
 .Header_history{
     height: 100px !important;
     border-bottom: black solid 1px;
-    background-color: transparent !important;
+    /* background-color: transparent !important; */
     z-index: 1;
     color:white !important;
 }
 .Header_text{
     color:white !important;
-}
-.bg-light{
-    background: transparent !important;
 }
 .Nima_icon{
     border-radius:50%;
@@ -83,19 +84,31 @@
 }
 
 @media(min-width:1025px) and (max-width:1201px){
-
+  .Nima_icon{
+    border-radius:50%;
+    margin-left:70px;
+}
 }
 
 @media(min-width:769px) and (max-width:1024px){
-
+  .Nima_icon{
+    border-radius:50%;
+    margin-left:70px;
+  }
 }
 
 @media(min-width:481px) and (max-width:768px){
-
+  .Nima_icon{
+    border-radius:50%;
+    margin-left: 10px;
+  }
 }
 
 @media(max-width:480px){
-
+  .Nima_icon{
+    border-radius:50%;
+    margin-left:5px;
+  }
 }
 
 
@@ -178,7 +191,7 @@
       transition: 250ms;
     }
   
-    button {
+    /* button {
       display: none;
-    }
+    } */
   }

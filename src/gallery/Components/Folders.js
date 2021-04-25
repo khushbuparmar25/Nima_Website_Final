@@ -92,7 +92,7 @@ export default class Folders extends Component {
   
   renderFolders = () =>{
     return(
-      this.state.galleryData.length>0 ? <> 
+     this.state.galleryData && this.state.galleryData.length>0 ? <> 
     {this.state.galleryData.map((data,index)=>(
       <div className="col-sm-4 col-xs-12 Folder_col">
       <div class="card">
