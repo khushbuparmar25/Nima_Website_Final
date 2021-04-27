@@ -15,25 +15,25 @@ const Header = () => {
             <nav className={`navbar navbar-expand-md ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/objectives' ? window.innerWidth > 729 ? 'Header_history navbar-dark bg-dark': 'Header_mobile navbar-dark bg-dark'  : window.innerWidth > 729 ? 'Header_base navbar-light bg-light': 'Header_mobile navbar-light bg-light'}`}>
                 <a className="navbar-brand" href="/">
                 <img src={nima_icon} alt="x" width="58" height="58" className="Nima_icon"/>
-                <span className="">Nima India</span>
+                <span className="Header_title">Nima India</span>
                 </a>
                 <button className="navbar-toggler" type="button"
                  data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <a className="nav-link " href="/">Home </a>
+                    <ul className="navbar-nav Header_links">
+                        <li className="nav-item Header_nav_item">
+                            <a className="nav-link Header_text" href="/">Home </a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/desk">Desk</a>
+                        <li className="nav-item Header_nav_item">
+                            <a className="nav-link Header_text" href="/desk">Desk</a>
                         </li>
-                        <li className="nav-item dropdown" onClick={()=>{
+                        <li className="nav-item Header_nav_item dropdown" onClick={()=>{
                             setNewsDropdown(!newsDropdown)
                             console.log("click")
                         }}>
-                        <a className="nav-link" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">News
+                        <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">News
                             {newsDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
                             </a>
                             <div className="dropdown-menu">
@@ -43,14 +43,14 @@ const Header = () => {
                                 <a className="dropdown-item" href="/covid">Covid 19</a>
                             </div>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/gallery">Gallery</a>
+                        <li className="nav-item Header_nav_item">
+                            <a className="nav-link Header_text" href="/gallery">Gallery</a>
                         </li> 
-                        <li className="nav-item dropdown" onClick={()=>{
+                        <li className="nav-item Header_nav_item dropdown" onClick={()=>{
                             setDownloadDropdown(!downloadDropdown)
                             console.log("click")
                         }}>
-                            <a className="nav-link" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Downloads
+                            <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Downloads
                             {downloadDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
                             </a>
                             <div className="dropdown-menu">
@@ -58,11 +58,11 @@ const Header = () => {
                                 <a className="dropdown-item" href="#">Wallpapers</a>
                             </div>
                         </li>
-                        <li className="nav-item dropdown" onClick={()=>{
+                        <li className="nav-item Header_nav_item dropdown" onClick={()=>{
                             setNimaDropdown(!nimaDropdown)
                             console.log("click")
                         }}>
-                        <a className="nav-link" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">We Nima
+                        <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">We Nima
                         {nimaDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
                         </a>
                         <div className="dropdown-menu">
@@ -72,11 +72,11 @@ const Header = () => {
                             <a className="dropdown-item" href="/stateofficebariars">State Office Bariars</a>
                         </div>
                         </li>
-                        <li className="nav-item dropdown" onClick={()=>{
+                        <li className="nav-item Header_nav_item dropdown" onClick={()=>{
                             setMembershipDropdown(!membershipDropdown)
                             console.log("click")
                         }}>
-                        <a className="nav-link" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Membership
+                        <a className="nav-link Header_text" href="#" id="navbardrop" data-toggle="dropdown" aria-expanded="false"  href="#" id="navbardrop" data-toggle="dropdown">Membership
                         {membershipDropdown? <FontAwesomeIcon className="Header_icon" icon={faCaretUp} />: <FontAwesomeIcon className="Header_icon" icon={faCaretDown} />}
                         </a>
                         <div className="dropdown-menu">
@@ -86,8 +86,8 @@ const Header = () => {
                             <a className="dropdown-item" href="/studentsforum">Students Forum</a>
                         </div>
                         </li>
-                        <li className="nav-item">
-                         <a className="nav-link" href="/contactus">Contact Us</a>
+                        <li className="nav-item Header_nav_item">
+                         <a className="nav-link Header_text" href="/contactus">Contact Us</a>
                          </li>
                     </ul>
                 </div>

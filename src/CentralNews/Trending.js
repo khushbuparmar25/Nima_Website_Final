@@ -34,13 +34,13 @@ export default class Trending extends Component {
     return (
       <div className="Trending__margin">
         <div className="row ml-3 mb-3 ">
-          <div className="col-md-3 col-6 p-0 m-0 Central__Date">
+          <div className="col-md-3 col-6 p-0 mb-3 Central__Date">
             TRENDING NEWS
           </div>
         </div>
 
         <div className="row align-items-start">
-          <div className="col-md-6 col-12">
+          <div className="col-md-6 col-12 pl-0">
             <div>
               <img
                 alt=""
@@ -59,7 +59,7 @@ export default class Trending extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-12 pl-md-0">
+          <div className="col-md-6 col-12 pl-md-0 ">
             <div className="row">
               <div className="col-12 Trending_mobileMargin">
                 <img
@@ -82,7 +82,7 @@ export default class Trending extends Component {
               </div>
             </div>
             <div className="row mt-md-4">
-              <div className="col-md-6 col-12 Trending_mobileMargin">
+              <div className="col-md-6 col-12 Trending_mobileMargin  mt-3">
                 <img
                   src={this.state.news[2].image[0]}
                   alt=""
@@ -90,7 +90,7 @@ export default class Trending extends Component {
                   className="img-fluid Trending_col3_image Trending_hover"
                 />
                 <div
-                  className="Trending_imageText Trending_hover"
+                  className="Trending_imageText Trending_hover  mt-3"
                   onClick={() => this.showModal(2)}
                 >
                   <p className="Trending_col3_date">
@@ -101,15 +101,15 @@ export default class Trending extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 col-12 Trending_mobileMargin">
+              <div className="col-md-6 col-12 Trending_mobileMargin mt-3">
                 <img
                   alt=""
                   onClick={() => this.showModal(3)}
                   src={this.state.news[3].image[0]}
-                  className="img-fluid Trending_col3_image Trending_hover"
+                  className="img-fluid Trending_col3_image Trending_hover "
                 />
                 <div
-                  className="Trending_imageText Trending_hover"
+                  className="Trending_imageText Trending_hover  mt-3"
                   onClick={() => this.showModal(3)}
                 >
                   <p className="Trending_col3_date">

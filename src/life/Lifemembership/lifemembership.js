@@ -7,7 +7,7 @@ function lifemembership()
     return(
     <>
     <div className="desktop">
-    <div className="row" style={{marginRight:"92px",marginLeft:"98px"}}>
+    <div className="row Lifemembership_first" style={{marginRight:"92px",marginLeft:"98px"}}>
     {/* <hr className="line"/> */}
     <div className="col-sm-6">
         <div className="heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
@@ -18,7 +18,7 @@ function lifemembership()
     <div className="col-sm-6">
         <img className="picture" src={pic} style={{width:"100%"}}/>
     </div>
-    <div className="text">
+    <div className="Lifemembership_text">
     Any ISM (Indian System of Medicine) graduate can br member of National Intergrated Medical Association. NIMA works in Three Tiger System i.e. Central Body, State Branch And Local Branch. An ISM graduate can become life member of any  Local branch of NIMA      
     </div>
     </div>
@@ -29,7 +29,7 @@ function lifemembership()
          <img  src={arrow} className="Image" alt=""/>
         </a>
         <img className="picture" src={pic} style={{width:"100%"}}/>
-    <div className="text">
+    <div className="Lifemembership_text">
     Any ISM (Indian System of Medicine) graduate can br member of National Intergrated Medical Association. NIMA works in Three Tiger System i.e. Central Body, State Branch And Local Branch. An ISM graduate can become life member of any  Local branch of NIMA      
     </div>
     

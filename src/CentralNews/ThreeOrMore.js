@@ -44,7 +44,7 @@ export default class ThreeOrMore extends Component {
       return (
         <div className="Three__margin">
           <div className="row ml-3 mb-3 ">
-            <div className="col-md-3 col-6 p-0 m-0 Central__Date">
+            <div className="col-md-3 col-6 p-0 m-0 Central__Date mb-3">
               {date[0]}, {date[1].substring(date[1].length - 2)}
             </div>
           </div>
@@ -125,7 +125,7 @@ export default class ThreeOrMore extends Component {
       return (
         <div className="Three__margin">
           <div className="row m-3 mb-3 ">
-            <div className="col-md-3 col-6 p-0 m-0 Central__Date">
+            <div className="col-md-3 col-6 p-0 m-0 Central__Date mb-3">
               {date[0]}, {date[1].substring(date[1].length - 2)}
             </div>
           </div>
@@ -227,7 +227,7 @@ export default class ThreeOrMore extends Component {
       return (
         <div className="Three__margin">
           <div className="row ml-3 mb-3 ">
-            <div className="col-md-3 col-6 p-0 m-0 Central__Date">
+            <div className="col-md-3 col-6 p-0 m-0 Central__Date mb-3">
               {date[0]}, {date[1].substring(date[1].length - 2)}
             </div>
           </div>

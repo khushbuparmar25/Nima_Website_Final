@@ -325,7 +325,7 @@ export default class BranchNews extends Component {
                         />
                       </div>
                       <div className="col-md-2 align-self-end BranchNews__text">
-                        <div>
+                        <div className="ml-2 mr-1">
                           <p className="BranchNews__stateText mb-0">
                             {n.state} -{" "}
                           </p>
