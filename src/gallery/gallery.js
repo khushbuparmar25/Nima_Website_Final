@@ -8,8 +8,7 @@ export default class gallery extends Component {
         return (
             <>
                 <Folder/>
-                <Grid/>
-                <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+                <Grid />
             </>
         )
     }
