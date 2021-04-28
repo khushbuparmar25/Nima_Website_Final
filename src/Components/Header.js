@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <div>
         <div className="container-fluid Header_containerTop">
-            <nav className={`navbar navbar-expand-md fixed-top ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/objectives' ? window.innerWidth > 729 ? 'Header_history navbar-dark bg-dark': 'Header_mobile navbar-dark bg-dark'  : window.innerWidth > 729 ? 'Header_base navbar-light bg-light': 'Header_mobile navbar-light bg-light'}`}>
+            <nav className={`navbar navbar-expand-md fixed-top ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/desk' || window.location.pathname.toLowerCase()==='/objectives' ? window.innerWidth > 729 ? 'Header_history navbar-dark bg-dark': 'Header_mobile navbar-dark bg-dark'  : window.innerWidth > 729 ? 'Header_base navbar-light bg-light': 'Header_mobile navbar-light bg-light'}`}>
                 <a className="navbar-brand" href="/">
                 <img src={nima_icon} alt="x" width="58" height="58" className="Nima_icon"/>
                 <span className="Header_title">Nima India</span>
@@ -45,7 +45,7 @@ const Header = () => {
                             </div>
                         </li>
                         <li className="nav-item Header_nav_item">
-                            <a className="nav-link Header_text" href="/gallery">Gallery</a>
+                            <a className="nav-link Header_text" href="/upcloud-nima-gallery">Gallery</a>
                         </li> 
                         <li className="nav-item Header_nav_item dropdown" onClick={()=>{
                             setDownloadDropdown(!downloadDropdown)

@@ -9,6 +9,15 @@
   font-size: 21px;
   text-transform: capitalize;
 }
+.footer_upcloud{
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 5%;
+}
 
 .Grid_des {
   color: darkgray;

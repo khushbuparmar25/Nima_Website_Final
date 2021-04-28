@@ -61,7 +61,7 @@ import axios from "axios";
 //   }
 // ]
 
-export default class Folders extends Component {
+class Folders extends Component {
   constructor(props){
     super(props)
     this.state = {
@@ -74,10 +74,10 @@ export default class Folders extends Component {
     await axios
       .get('https://nimaaaa-project.herokuapp.com/gallery')
       .then((response) => {
-        // console.log("api Incoming", response.data)
+        console.log("api Incoming", response.data)
         this.setState({
-          galleryData:response.data
-        }, ()=> console.log("The Array Needed",response.data))          
+          galleryData:response.data.data
+        }, ()=> console.log("The Array Needed", this.state.galleryData))          
       })
       .catch((error) => {
         console.log(error);
@@ -92,7 +92,7 @@ export default class Folders extends Component {
   
   renderFolders = () =>{
     return(
-     this.state.galleryData && this.state.galleryData.length>0 ? <> 
+     this.state.galleryData && this.state.galleryData.length > 0 ? <> 
     {this.state.galleryData.map((data,index)=>(
       <div className="col-sm-4 col-xs-12 Folder_col">
       <div class="card">
@@ -120,23 +120,20 @@ export default class Folders extends Component {
 
   render() 
   {
-
-   
-
-    return (
-      
-        <div>
+   return (
+    <div>
       <div className="container Folders_container">
         <div className="Folder_title"> Gallery</div>
         <div className="row">
-        {this.renderFolders()}
+          {this.renderFolders()}
         </div>
       </div>
-      </div>
+      {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
+    </div>
     )
   }
 }
 
-
+export default Folders
 
 
