@@ -24,6 +24,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <div style={{marginTop:"100px"}}>
       <Router>
         <Switch>
           <Route path="/mbs" component={mbs} exact />
@@ -46,6 +47,7 @@ function App() {
           <Route path="/download" component={download} exact /> 
         </Switch>
       </Router>
+      </div>
     </div>
   );
 }
