@@ -10,6 +10,8 @@
   position: fixed;
   overflow-y: scroll;
   font-family: "Poppins", sans-serif;
+  top:0;
+  padding-top:100px;
 }
 .Desk__linkDesktop {
   height: 100%;
@@ -19,9 +21,9 @@
   /* overflow-y: scroll; */
   /* overflow: hidden; */
 }
-.Desk__col2 {
-  /* overflow: hidden; */
-}
+/* .Desk__col2 {
+  /* overflow: hidden; 
+} */
 
 .Desk__row.Desk__selectedDoctorImage {
   height: 80%;
