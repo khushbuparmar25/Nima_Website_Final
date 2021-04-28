@@ -31,7 +31,7 @@ class Slider extends React.Component{
         
         return(
             <div className="Slider_container mobile-card-container">
-            <div className="heading">ELECTION OFFICERS</div>
+            <div className="heading Slider_header">ELECTION OFFICERS</div>
         <div className="row text-center flex-nowrap flex-sm-wrap Slider_row_styling">  
         
         <div className=" col-10 col-sm-3 Slider_mx-sm-auto ">

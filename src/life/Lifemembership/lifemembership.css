@@ -1,4 +1,4 @@
-.heading {
+.Lifemembership_heading {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -7,7 +7,7 @@
   text-align: left;
   padding-top: 155px;
 }
-.line {
+.Lifemembership_line {
   width: 1151px;
   height: 0px;
   border: 1px solid #000000;
@@ -23,7 +23,7 @@
   font-weight: 600;
   margin-bottom: 100px;
 }
-.link {
+.Lifemembership_link {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -34,7 +34,7 @@
   margin-left: 0px !important;
   margin-top: 20px;
 }
-.Image {
+.Lifemembership_Image {
   width: 33px;
   height: 33px;
 
@@ -44,15 +44,15 @@
   padding: 7px;
 }
 @media (max-width: 500px) {
-  .desktop {
+  .Lifemembership_desktop {
     display: none;
   }
-  .heading {
+  .Lifemembership_heading {
     font-size: 40px !important;
     padding-top: 88px;
     padding-bottom: 10px;
   }
-  .mobile {
+  .Lifemembership_mobile {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -63,37 +63,37 @@
     margin-bottom: 0px !important;
     font-weight: 600;
   }
-  .picture {
+  .Lifemembership_picture {
     padding-bottom: 30px;
   }
-  a.link {
+  a.Lifemembership_link {
     /* padding-left: 10px; */
     font-size: 13px;
     margin-top: 0px !important;
   }
 }
 @media (min-width: 600px) {
-  .mobile {
+  .Lifemembership_mobile {
     display: none;
   }
-  .picture {
+  .Lifemembership_picture {
     width: 792px;
     height: 611px;
   }
   .Lifemembership_text {
     font-size: 16px;
   }
-  .heading {
+  .Lifemembership_heading {
     font-size: 40px;
   }
-  .row {
+  .Lifemembership_row {
     margin-left: 20px !important;
     margin-right: 20px !important;
   }
 }
 
 @media (min-width: 1200px) {
-  .mobile {
+  .Lifemembership_mobile {
     display: none;
   }
   .Lifemembership_first {

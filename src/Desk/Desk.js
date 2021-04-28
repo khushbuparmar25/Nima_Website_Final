@@ -217,9 +217,9 @@ class Desk extends React.Component {
 
                 <div className="Desk__linkMobile">
                   <div className="Desk__row h-100 mr-0 row align-items-center ">
-                    <div className="mt-3">
+                    {/* <div className="mt-3">
                       <MdMenu size={32} className="Desk__buttonNav" />
-                    </div>
+                    </div> */}
                     <div style={{ marginTop: "30px" }}>
                       <h1 className="Desk__h1 Desk__margin">Desk</h1>
                       <p className="Desk__textPara Desk__margin">

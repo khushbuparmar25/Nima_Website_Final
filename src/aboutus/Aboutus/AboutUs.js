@@ -13,8 +13,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "react-multi-carousel/lib/styles.css";
 import "react-multi-carousel/lib/styles.css";
-import DehazeIcon from '@material-ui/icons/Dehaze';
-import IconButton from '@material-ui/core/IconButton';
+// import DehazeIcon from '@material-ui/icons/Dehaze';
+// import IconButton from '@material-ui/core/IconButton';
 
 
 const responsive = {
@@ -154,7 +154,7 @@ class AboutUs extends React.Component {
     }
     render()
     {return(  <>
-        <div>
+        <div className="AboutUs">
         
         <div className="AboutUs_firstdiv" style={{marginBottom:"10%",height:"90vh",width:"100%"}}>
                 
@@ -176,9 +176,9 @@ class AboutUs extends React.Component {
         </div>
         <div className="AboutUs_mobileview" style={{height:"100%",marginBottom:"5%"}} >
                  
-                 <IconButton aria-label="dehaze" className="dehaze">
+                 {/* <IconButton aria-label="dehaze" className="dehaze">
                     <DehazeIcon fontSize="large" />
-                  </IconButton>
+                  </IconButton> */}
                   <h1 style={{fontWeight:"bold",paddingTop:"120px",textAlign:"left",marginLeft:"30px",fontSize:"30px"}}>About Us</h1>
                   <p style={{marginTop:"2rem",marginLeft:"30px",marginRight:"30px",textAlign:"left",fontSize:"13px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque augue viverra bibendum sollicitudin. Quisque auctor in dui non blandit. Suspendisse pulvinar tellus nulla, sit amet aliquet risus ultrices suscipit. Nunc fringilla consequat leo venenatis luctus. Maecenas interdum luctus fringilla. Nullam viverra ligula eget finibus egestas. Fusce felis purus, sagittis a neque quis, dignissim aliquet turpis. Nulla facilisi. Nam eget massa eget augue euismod tempor eget vitae lorem. Pellentesque vel libero sed orci bibendum venenatis </p>
                 <img  style={{width:"100%",height:"282px;",marginBottom:"42px"}} src={pic} alt=""/>

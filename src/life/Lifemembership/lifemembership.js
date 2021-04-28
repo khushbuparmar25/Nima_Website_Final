@@ -6,29 +6,29 @@ function lifemembership()
 {
     return(
     <>
-    <div className="desktop">
-    <div className="row Lifemembership_first" style={{marginRight:"92px",marginLeft:"98px"}}>
+    <div className="Lifemembership_desktop">
+    <div className="row Lifemembership_first Lifemembership_row" style={{marginRight:"92px",marginLeft:"98px"}}>
     {/* <hr className="line"/> */}
     <div className="col-sm-6">
-        <div className="heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
-        <a className="link" href="#" >DOWNLOAD BROCHURE 
-         <img  src={arrow} className="Image" alt=""/>
+        <div className="Lifemembership_heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
+        <a className="Lifemembership_link" href="#" >DOWNLOAD BROCHURE 
+         <img  src={arrow} className="Lifemembership_Image" alt=""/>
         </a>
     </div>
     <div className="col-sm-6">
-        <img className="picture" src={pic} style={{width:"100%"}}/>
+        <img className="Lifemembership_picture" src={pic} style={{width:"100%"}}/>
     </div>
     <div className="Lifemembership_text">
     Any ISM (Indian System of Medicine) graduate can br member of National Intergrated Medical Association. NIMA works in Three Tiger System i.e. Central Body, State Branch And Local Branch. An ISM graduate can become life member of any  Local branch of NIMA      
     </div>
     </div>
     </div>
-    <div className="mobile">
-    <div className="heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
-    <a className="link" href="#" >DOWNLOAD BROCHURE 
-         <img  src={arrow} className="Image" alt=""/>
+    <div className="Lifemembership_mobile">
+    <div className="Lifemembership_heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
+    <a className="Lifemembership_link" href="#" >DOWNLOAD BROCHURE 
+         <img  src={arrow} className="Lifemembership_Image" alt=""/>
         </a>
-        <img className="picture" src={pic} style={{width:"100%"}}/>
+        <img className="Lifemembership_picture" src={pic} style={{width:"100%"}}/>
     <div className="Lifemembership_text">
     Any ISM (Indian System of Medicine) graduate can br member of National Intergrated Medical Association. NIMA works in Three Tiger System i.e. Central Body, State Branch And Local Branch. An ISM graduate can become life member of any  Local branch of NIMA      
     </div>

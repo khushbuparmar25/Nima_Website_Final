@@ -12,9 +12,9 @@ class Covid extends React.Component {
   render() {
     return (
       <div className="Covid__div">
-        <div className="row Covid__buttonNav align-items-start">
+        {/* <div className="row Covid__buttonNav align-items-start">
           <MdMenu size={32} className="" />
-        </div>
+        </div> */}
         <div className="row Covid__row align-items-center  mt-5">
           <div className="col-md-5 col-12">
             <h3 className="Covid__heading Covid__marginDesktop">Covid-19</h3>

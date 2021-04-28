@@ -345,9 +345,9 @@ export default class BranchNews extends Component {
               </div>
               <div className="BranchNews__mobileView">
                 <div className="row  mt-5 ">
-                  <div className="col-2">
+                  {/* <div className="col-2">
                     <MdMenu className="Menu_btn" size={20} />
-                  </div>
+                  </div> */}
                   <div className="col-10 p-0 text-center">
                     <select
                       className="BranchNews__selectState"

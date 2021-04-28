@@ -86,9 +86,9 @@ class StateBranchOfficials extends React.Component {
       <div className="StateBranchOfficials">
         <div className="StateBranchOfficials__firstdiv">
           <Fragment>
-            <div className="StateBranchOfficials__mobileBtn">
+            {/* <div className="StateBranchOfficials__mobileBtn">
               <MdMenu size={32} className="StateBranchOfficials__buttonNav" />
-            </div>
+            </div> */}
             <div
               className="row StateBranchOfficials__row1"
               style={{ marginLeft: "0", marginRight: "0" }}

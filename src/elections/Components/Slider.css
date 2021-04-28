@@ -5,7 +5,14 @@
     padding-right: 85px;
     font-family: 'Poppins', sans-serif;
 }
-
+.Slider_header{
+    color: #8108AB; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: left !important;
+  }
 .Slider_row_styling{
     padding-left: 80px;
     display: flex;
@@ -16,14 +23,6 @@
     margin-right: 75px!important;
     margin-left: 20px !important;
 }
-
-.heading{
-    color: #8108AB; 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    margin-bottom: 40px;
-  }
 
 .react-multi-carousel-item {
     transform-style: preserve-3d;

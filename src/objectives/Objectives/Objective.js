@@ -1,7 +1,7 @@
 import React from "react";
 import "./Objective.css";
-import Fab from "@material-ui/core/Fab";
-import { makeStyles } from "@material-ui/core/styles";
+// import Fab from "@material-ui/core/Fab";
+// import { makeStyles } from "@material-ui/core/styles";
 // import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 // import DownIcon from '@material-ui/icons/KeyboardArrowDown';
 import { MdKeyboardArrowUp, MdCropSquare } from "react-icons/md";
@@ -756,12 +756,12 @@ class Objective extends React.Component {
         <div className="MobileView">
           {/* <button onClick={this.shoot}> </button>
         <button onClick={this.shootdown}></button> */}
-          <Fab size="small" color="black" onClick={this.shootdown} aria-label="up">
+          {/* <Fab size="small" color="black" onClick={this.shootdown} aria-label="up">
             <MdKeyboardArrowUp />
           </Fab>
           <Fab size="small" onClick={this.shoot} aria-label="down">
             <MdKeyboardArrowDown />
-          </Fab>
+          </Fab> */}
         </div>
         </div>
         <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>

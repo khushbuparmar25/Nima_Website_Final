@@ -9,7 +9,7 @@ function Header(){
         <div>
         <div className="container Header_container">
             <div className="Header__sandwich">
-            <img className="Header__sandwichstyle" src={sandwich} alt="sandwich-button" />
+            {/* <img className="Header__sandwichstyle" src={sandwich} alt="sandwich-button" /> */}
             </div>
             <div className="row Header_row">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">

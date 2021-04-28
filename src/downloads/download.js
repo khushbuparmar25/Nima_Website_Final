@@ -41,9 +41,9 @@ export default class download extends Component {
         console.log("hey",this.state.filesData)
         return (
           <div>
-            <div className="ham_div"><img src={ham} alt="menu icon" className="ham_icon"/></div>
+            {/* <div className="ham_div"><img src={ham} alt="menu icon" className="ham_icon"/></div> */}
             <hr className="Download_fhr" />
-            
+             
             <Container>
             <div className="download_title">Downloads</div>
               <div className="main">

@@ -28,9 +28,9 @@ class Header extends React.Component {
       //     </div>
       //   </div>
       <div className="ContactHeader_container container-fluid">
-        <div className="row align-items-end p-0 ContactMobile_menu ContactHeader_row">
+        {/* <div className="row align-items-end p-0 ContactMobile_menu ContactHeader_row">
           <MdMenu color="white" size={30} />
-        </div>
+        </div> */}
         <div className="row align-items-end p-0  ContactHeader_row">
           <div className="col-md-5 col-12 p-0">
             <div className="ContactHeader_col1">

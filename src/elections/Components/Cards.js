@@ -16,17 +16,17 @@ function Cards() {
 
     <div className="row text-center flex-nowrap flex-sm-wrap Cards_row_styling">
     <div className=" col-10 col-sm-2  mx-sm-auto">
-        <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+        <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC ELECTION RESULT
                     </a>
                 </div>
-                <div className="dates">
+                <div className="Election_dates">
                     Updated: 22 June 2020
                 </div>
             </div>
@@ -34,17 +34,17 @@ function Cards() {
     </div>
       
     <div className=" col-10 col-sm-2 mx-sm-auto ">
-    <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+    <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC FINAL CANDIDATE LIST
                     </a>
                 </div>
-                <div className="dates">
+                <div className="Election_dates">
                 Updated: 22 June 2020
                 </div>
             </div>
@@ -52,13 +52,13 @@ function Cards() {
     </div>
       
     <div class=" col-10 col-sm-2 mx-sm-auto ">
-    <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+    <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC VALID INVALID CANDIDATE LIST
                     </a>
                 </div>
@@ -70,17 +70,17 @@ function Cards() {
     </div>
 
     <div class="col-10 col-sm-2 mx-sm-auto">
-    <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+    <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC CANDIDATE LIST
                     </a>
                 </div>
-                <div className="dates">
+                <div className="Election_dates">
                 Updated: 22 June 2020
                 </div>
             </div>
@@ -96,17 +96,17 @@ function Cards() {
   
      <div className="row text-center flex-nowrap flex-sm-wrap Cards_row_styling2">
     <div className=" col-10 col-sm-2  mx-sm-auto2">
-        <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+        <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC FINAL VOTER LIST
                     </a>
                 </div>
-                <div className="dates">
+                <div className="Election_dates">
                     Updated: 22 June 2020
                 </div>
             </div>
@@ -114,17 +114,17 @@ function Cards() {
     </div>
       
     <div className=" col-10 col-sm-2 mx-sm-auto2">
-    <div class="card card-background">
-            <div className="card-img-div">
-              <img className="card-image" src={icon} alt="id" /> 
+    <div class="card card-background ElectionsCard_background">
+            <div className="card-img-div ElectionCard_img">
+              <img className="card-image ElectionCard_image" src={icon} alt="id" /> 
             </div>
-            <div className="card-body text-center">
-                <div className="card-title"> 
-                    <a href="#" className="card-link">
+            <div className="card-body ElectionCard_body">
+                <div className="card-title ElectionCard_title"> 
+                    <a href="#" className="card-link ElectionCard_link">
                         NIMA CC FINAL CANDIDATE LIST
                     </a>
                 </div>
-                <div className="dates">
+                <div className="Election_dates ">
                 Updated: 22 June 2020
                 </div>
             </div>

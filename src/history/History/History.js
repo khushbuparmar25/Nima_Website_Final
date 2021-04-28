@@ -1,6 +1,6 @@
 import React from "react";
 import "./History.css";
-import Fab from "@material-ui/core/Fab";
+// import Fab from "@material-ui/core/Fab";
 //import { makeStyles } from "@material-ui/core/styles";
 // import UpIcon from '@material-ui/icons/KeyboardArrowUp';
 // import DownIcon from '@material-ui/icons/KeyboardArrowDown';
@@ -680,7 +680,7 @@ class History extends React.Component {
           <div className="MobileView">
             {/* <button onClick={this.shoot}> </button>
           <button onClick={this.shootdown}></button> */}
-            <Fab
+            {/* <Fab
               size="small"
               color="black"
               onClick={this.shootdown}
@@ -690,7 +690,7 @@ class History extends React.Component {
             </Fab>
             <Fab size="small" onClick={this.shoot} aria-label="down">
               <MdKeyboardArrowDown />
-            </Fab>
+            </Fab> */}
           </div>
         </div>
         <div className="footer_upcloud">

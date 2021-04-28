@@ -12,7 +12,8 @@ const Header = () => {
 
     return (
         <div>
-            <nav className={`navbar navbar-expand-md ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/objectives' ? window.innerWidth > 729 ? 'Header_history navbar-dark bg-dark': 'Header_mobile navbar-dark bg-dark'  : window.innerWidth > 729 ? 'Header_base navbar-light bg-light': 'Header_mobile navbar-light bg-light'}`}>
+        <div className="container-fluid Header_containerTop">
+            <nav className={`navbar navbar-expand-md  Header_navbar_ultimate ${window.location.pathname.toLowerCase()==='/history' || window.location.pathname.toLowerCase()==='/objectives' ? window.innerWidth > 729 ? 'Header_history navbar-dark bg-dark': 'Header_mobile navbar-dark bg-dark'  : window.innerWidth > 729 ? 'Header_base navbar-light bg-light': 'Header_mobile navbar-light bg-light'}`}>
                 <a className="navbar-brand" href="/">
                 <img src={nima_icon} alt="x" width="58" height="58" className="Nima_icon"/>
                 <span className="Header_title">Nima India</span>
@@ -22,7 +23,7 @@ const Header = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul className="navbar-nav Header_links">
+                    <ul className="navbar-nav Header_links ">
                         <li className="nav-item Header_nav_item">
                             <a className="nav-link Header_text" href="/">Home </a>
                         </li>
@@ -92,6 +93,7 @@ const Header = () => {
                     </ul>
                 </div>
             </nav>
+        </div>
         </div>
     )
     

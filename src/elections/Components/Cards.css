@@ -3,7 +3,41 @@
     
     font-family: 'Poppins', sans-serif !important;
 }
+.ElectionsCard_background{
+  background-color: #ffffff;
+  border-radius: 20px !important;
+  margin-top: 16px;
+  height: 220px !important;
+  width: 171px !important;
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+  -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
+  box-shadow: 2px 3px 6px 1px rgba(0, 51, 102, 0.1);
+}
+.ElectionCard_link{
+  text-decoration: none !important;
+  color: #8108AB  !important;
+  font-size: 13px i !important;
+  font-weight: 550 i !important; 
+}
+.ElectionCard_title{
+  color: darkmagenta !important;
+  font-size: 13px !important;
+  font-weight: 550 !important;  
+  text-decoration: none !important;
+}
+.ElectionCard_image {
+  position: absolute !important;
+  width: 2rem !important;
+  height: auto !important;
+  top: 2.5rem !important;
+  left: 40% !important;
+}
 
+.ElectionCard_body {
+   flex: 1 1 auto !important;
+  padding: 8px !important;
+  text-align:center !important;
+}
 .Cards_hr{
     width: 95%; 
     height: 20px;
@@ -49,49 +83,16 @@
     margin-left: 35px !important;
 }
 
-  .card-background {
-    background-color: #ffffff;
-    border-radius: 20px;
-    margin-top: 16px;
-    height: 220px;
-    width: 171px;
-    -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
-    -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
-    box-shadow: 2px 3px 6px 1px rgba(0, 51, 102, 0.1);
-  }
-
-  .card-img-div{
+  
+  .ElectionCard_img{
     align-items: center;
-    margin-left: 7rem;
+    margin-left:0;
     margin-top: 6.5rem;
     }
-  .card-image {
-    position: absolute;
-    width: 2rem;
-    height: auto;
-    top: 2.5rem;
-    left: 40%;
-  }
+  
+  
 
-  .card-body {
-     flex: 1 1 auto;
-    padding: 8px;
-}
-  .card-title{
-      color: darkmagenta !important;
-      font-size: 13px;
-      font-weight: 550;  
-      text-decoration: none;
-  }
-
-  .card-link{
-      text-decoration: none;
-      color: #8108AB  !important;
-      font-size: 13px;
-      font-weight: 550; 
-  }
-
-  .dates{
+  .Election_dates{
     color: #555555;  
     font-size: 10px;
     font-weight: 400;
@@ -179,7 +180,7 @@
 
   
 
-  .card-background {
+  .ElectionsCard_background {
     background-color: #ffffff;
     border-radius: 6px;
     margin-top: 16px;
@@ -190,12 +191,12 @@
     box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
   }
 
-  .card-img-div{
+  .ElectionCard_img{
     align-items: center;
-    margin-left: 7rem;
+    margin-left: 0;
     margin-top: 4.5rem;
     }
-  .card-image {
+    .ElectionCard_image {
     position: absolute;
     width: 2rem;
     height: auto;
@@ -203,25 +204,25 @@
     left: 38%;
   }
 
-  .card-body {
+  .ElectionCard_body {
      flex: 1 1 auto;
     padding: 10px;
 }
-  .card-title{
+  .ElectionCard_title{
       color: #8108AB  !important;
       font-size: 11px;
       font-weight: 500;  
       text-decoration: none;
   }
 
-  .card-link{
+ .ElectionCard_link{
       text-decoration: none;
       color: #8108AB !important;
       font-size: 11px;
       font-weight: 500; 
   }
 
-  .dates{
+  .Election_dates{
      color: #555555; 
     font-size: 10px;
     font-weight: 400;
@@ -289,49 +290,48 @@
   margin-left: 40px !important;
 }
     
-    .card-background {
+    .ElectionsCard_background {
         background-color: #ffffff;
         border-radius: 6px;
         margin-top: 16px;
-        height: 200px;
-        width: 150px;
+        height: 171px;
+        width: 131px;
         -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
         -moz-box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
         box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
       }
     
-      .card-img-div{
+      .ElectionCard_img{
         align-items: center;
-        margin-left: 7rem;
+        margin-left: 0;
         margin-top: 6rem;
         }
-      .card-image {
+      .ElectionCard_image{
         position: absolute;
         width: 2rem;
         height: auto;
         top: 2.5rem;
         left: 38%;
-      }
-    
-      .card-body {
+      }    
+      .ElectionCard_body {
          flex: 1 1 auto;
         padding: 10px;
     }
-      .card-title{
+      .ElectionCard_title{
           color: darkmagenta !important;
           font-size: 11px;
           font-weight: 500;  
           text-decoration: none;
       }
     
-      .card-link{
+     .ElectionCard_link{
           text-decoration: none;
           color: darkmagenta !important;
           font-size: 11px;
           font-weight: 500; 
       }
     
-      .dates{
+      .Election_dates{
         color: #555555;   
         font-size: 9px;
         font-weight: 400;
@@ -342,11 +342,7 @@
         font-size: 9px;
         font-weight: 400;
         margin-top: 2rem;
-      }
-
-
-    
-    
+      }   
 }
 
 /* for big tablets */
@@ -375,7 +371,7 @@
     }
     
     
-    .card-background {
+    .ElectionsCard_background {
         background-color: #ffffff;
         border-radius: 6px;
         margin-top: 16px;
@@ -386,12 +382,12 @@
         box-shadow: 0px 2px 4px 1px rgba(0, 51, 102, 0.1);
       }
     
-      .card-img-div{
+      .ElectionCard_img{
         align-items: center;
-        margin-left: 7rem;
+        margin-left: 0;
         margin-top: 4rem;
         }
-      .card-image {
+      .ElectionCard_image{
         position: absolute;
         width: 2.5rem;
         height: auto;
@@ -399,25 +395,25 @@
         left: 38%;
       }
     
-      .card-body {
+      .ElectionCard_body {
          flex: 1 1 auto;
         padding: 10px;
     }
-      .card-title{
+      .ElectionCard_title{
           color: darkmagenta !important;
           font-size: 11px;
           font-weight: 500;  
           text-decoration: none;
       }
     
-      .card-link{
+     .ElectionCard_link{
           text-decoration: none;
           color: darkmagenta !important;
           font-size: 11px;
           font-weight: 500; 
       }
     
-      .dates{
+      .Election_dates{
         color: #555555;   
         font-size: 9px;
         font-weight: 400;

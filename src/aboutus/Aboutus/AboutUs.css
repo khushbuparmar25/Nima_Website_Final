@@ -1,3 +1,6 @@
+.AboutUs {
+  overflow-x: hidden;
+}
 .AboutUs_firstdiv {
   background-color: #ffdfd4;
   width: 100%;
@@ -231,6 +234,8 @@ hr {
   }
   .caro {
     margin-left: 40%;
+    padding-left: 0px;
+    width: 60%;
   }
   .AboutUs_doctorImage {
     width: 121px;
