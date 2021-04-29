@@ -10,7 +10,7 @@ export default class womensforum extends Component {
                 <Hero />
                 <Leaders />
                 <Forum/>
-                <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+                {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
             </>
         )
     }

@@ -764,7 +764,7 @@ class Objective extends React.Component {
           </Fab> */}
         </div>
         </div>
-        <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+        {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
       </div>
     );
   }

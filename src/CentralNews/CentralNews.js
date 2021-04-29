@@ -360,9 +360,9 @@ export default class CentralNews extends Component {
               components
               // this.renderNews
             }
-            <div className="Central_footer_upcloud row">
+            {/* <div className="Central_footer_upcloud row">
               <p>Powered by Upcloud Technology Pvt Ltd</p>
-            </div>
+            </div> */}
           </div>
         )}
         {this.state.loading && (

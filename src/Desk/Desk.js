@@ -211,7 +211,7 @@ class Desk extends React.Component {
                     </div>
                   </div>
                   <div className="Desk_footer_upcloud row">
-                    <p>Powered by Upcloud Technology Pvt Ltd</p>
+                    {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
                   </div>
                 </div>
 
@@ -301,7 +301,7 @@ class Desk extends React.Component {
                         />
                       </div>
                       <div className="Desk_footer_upcloud row">
-                        <p>Powered by Upcloud Technology Pvt Ltd</p>
+                        {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
                       </div>
                     </div>
                   </div>

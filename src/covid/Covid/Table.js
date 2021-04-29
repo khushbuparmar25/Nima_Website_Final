@@ -259,7 +259,7 @@ class Table extends React.Component {
             ))}
           </div>
           <div className="footer_upcloud row">
-            <p>Powered by Upcloud Technology Pvt Ltd</p>
+            {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
           </div>
         </div>
         {this.state.modal === "-1" ? (

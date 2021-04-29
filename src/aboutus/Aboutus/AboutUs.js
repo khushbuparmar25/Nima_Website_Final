@@ -335,7 +335,7 @@ class AboutUs extends React.Component {
     </div>
     </div>
     <div class="AboutUs_lastdiv">
-    <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+    {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
     </div>
     </>
     )}

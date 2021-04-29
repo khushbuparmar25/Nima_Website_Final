@@ -199,7 +199,7 @@ export default class StudentForm extends React.Component {
                   </div>
                 </div>
                 <div className="Student_footer_upcloud row Student_Mobilehide">
-                  <p>Powered by Upcloud Technology Pvt Ltd</p>
+                  {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
                 </div>
                 <div className="col-md-6 p-0 no-gutters">
                   <div className="Student_head1 Student_Mobilehide">
@@ -451,7 +451,7 @@ export default class StudentForm extends React.Component {
                   </form>
                 </div>
                 <div className="Student_footer_upcloudMobile row Student_mobileShow">
-                  <p>Powered by Upcloud Technology Pvt Ltd</p>
+                  {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
                 </div>
               </div>
             </div>
@@ -472,7 +472,7 @@ export default class StudentForm extends React.Component {
                 </div>
               </div>
               <div className="Student_footer_upcloud row Student_Mobilehide">
-                <p>Powered by Upcloud Technology Pvt Ltd</p>
+                {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
               </div>
               <div className="col-md-6 no-gutters" style={{ padding: "0px" }}>
                 <div className="Student_head1 Student_Mobilehide">
@@ -562,7 +562,7 @@ export default class StudentForm extends React.Component {
                 </div>
               </div>
               <div className="Student_footer_upcloudMobile row Student_mobileShow">
-                <p>Powered by Upcloud Technology Pvt Ltd</p>
+                {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
               </div>
             </div>
           </div>

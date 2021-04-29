@@ -431,7 +431,7 @@ export default class BranchNews extends Component {
                 </div>
               </div>
               <div className="Branch_footer_upcloud row">
-                <p>Powered by Upcloud Technology Pvt Ltd</p>
+                {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
               </div>
             </Fragment>
             {this.state.modal === "-1" ? (

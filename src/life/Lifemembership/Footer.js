@@ -12,7 +12,7 @@ function Footer() {
         <div>Sunday closed</div>
       </div>
       <div className="footer_upcloud">
-        <p>Powered by Upcloud Technology Pvt Ltd</p>
+        {/* <p>Powered by Upcloud Technology Pvt Ltd</p> */}
       </div>
     </div>
   );

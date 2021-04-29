@@ -27,7 +27,7 @@
     z-index: 1;
     color:white !important;
 }
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link, .Header_title2{
   color:#fff !important;
 }
 .Header_text{

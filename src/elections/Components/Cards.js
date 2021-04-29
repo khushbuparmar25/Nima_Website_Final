@@ -136,7 +136,7 @@ function Cards() {
   
   
   <br/><br/><br/><br/><br/>
-  <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+  {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
 </div>
     )
 }

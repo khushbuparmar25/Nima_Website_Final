@@ -50,7 +50,7 @@ export default class download extends Component {
                 {this.renderFiles()}
               </div>
             </Container>
-            <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+            {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
           </div>
         )
       }

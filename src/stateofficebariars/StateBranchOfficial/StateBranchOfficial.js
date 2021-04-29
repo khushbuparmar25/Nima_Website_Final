@@ -366,10 +366,10 @@ class StateBranchOfficials extends React.Component {
             </Carousel>
           </div>
         </div>
-        <div className="footer_upcloud ">
+        {/* <div className="footer_upcloud ">
           <p>Powered by Upcloud Technology Pvt Ltd</p>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
     );
   }
 }
