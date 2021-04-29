@@ -7,7 +7,7 @@
 .Header_base{
     height: 100px !important;
     border-bottom: #a3a5a8 solid 1px !important;
-    /* background-color: transparent !important;   */
+    background-color: white !important;  
     z-index: 1;
     padding: 8px 0 !important;
     width:100% !important;
@@ -47,19 +47,7 @@
 }
 .Header_title{
     margin-left:15px;
-    color:#000;
 }
-.Header_title2{
-  margin-left:15px;
-  color:#fff;
-}
-
-/* .Header_text_home, .Header_text_desk, .Header_text_news, .Header_text_gallery, .Header_text_downloads, .Header_text_nima, .Header_text_membership, .Header_text_contact{
-    color: black !important;
-    font-size:20px;
-    padding:0px !important;
-    margin-right:30px;
-} */
 .Header_links{
     padding-right:0px !important;
 }
