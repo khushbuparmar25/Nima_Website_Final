@@ -27,7 +27,7 @@
     z-index: 1;
     color:white !important;
 }
-.navbar-dark .navbar-nav .nav-link, .Header_title2{
+.navbar-dark .navbar-nav .nav-link{
   color:#fff !important;
 }
 .Header_text{
@@ -48,6 +48,10 @@
 .Header_title{
     margin-left:15px;
     color:#000;
+}
+.Header_title2{
+  margin-left:15px;
+  color:#fff;
 }
 
 /* .Header_text_home, .Header_text_desk, .Header_text_news, .Header_text_gallery, .Header_text_downloads, .Header_text_nima, .Header_text_membership, .Header_text_contact{
