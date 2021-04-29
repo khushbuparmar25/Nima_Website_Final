@@ -49,7 +49,7 @@ class Grid extends Component {
           {this.renderImages()}
         </Coverflow>
         </div>
-        <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
+        {/* <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div> */}
         </div>
     );
   }
