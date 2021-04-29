@@ -10,11 +10,6 @@ export default class contact extends Component {
             <div>
                 <HeaderMain />
                 <First />
-                <div className="Contact_lastDiv">
-                    <div className="Contact_footer_upcloud">
-                    <p>Powered by Upcloud Technology Pvt Ltd</p>
-                    </div>
-                </div>
             </div>
         )
     }
