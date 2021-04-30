@@ -3,7 +3,7 @@
   position: absolute;
   top: 190px;
   right: 0px;
-  z-index: 9999;
+  z-index: 0;
 }
 #Hero__desktop {
   display: block;

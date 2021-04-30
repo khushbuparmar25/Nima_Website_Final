@@ -7,11 +7,8 @@ const Applayout = () => {
         <div>
             <Header/>
             <div style={{marginTop:"100px"}}>
-
                 <AppBody/>
-
-            </div>
-            
+            </div>            
             <div className="footer_upcloud">Powered by Upcloud Technology Pvt. Ltd.</div>
         </div>
     )
