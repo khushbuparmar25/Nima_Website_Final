@@ -9,6 +9,7 @@
    color: #000000;
    font-style: normal;
    margin-bottom: 37px;
+   text-align: left;
 }
 .Footer__subheading{
    margin-left: 65px;
@@ -19,6 +20,7 @@
    line-height: 35px;
    color: #000000;
    margin-bottom: 50px;
+   text-align: left;
 }
 .footer_upcloud{
     display:flex;

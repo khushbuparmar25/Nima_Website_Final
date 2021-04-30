@@ -4,6 +4,7 @@
   top: 190px;
   right: 0px;
   z-index: 0;
+  width:900px;
 }
 #Hero__desktop {
   display: block;
@@ -148,7 +149,7 @@
     position: absolute;
     top: 330px;
     right: 0px;
-    z-index: 9999;
+    z-index: 0;
     height: 375px;
   }
   #Hero__desktop {
@@ -310,7 +311,7 @@
     position: absolute;
     top: 120px;
     right: 0px;
-    z-index: 9999;
+    z-index: 0;
     height: 370px;
   }
   .Hero__heading{
@@ -466,7 +467,7 @@
      position: absolute;
      top:180px;
      right: 0px;
-     z-index: 9999;
+     z-index: 0;
      width: 70%;
    }
    .Hero__pre-title{

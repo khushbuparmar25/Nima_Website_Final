@@ -154,7 +154,7 @@
 }
 
 .Cards_row_styling{
-    padding: 36px 0px 60px 32px;
+    padding: 36px 0px 60px 12px !important;
   }
 
 /* for second row */

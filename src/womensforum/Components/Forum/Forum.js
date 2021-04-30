@@ -141,7 +141,7 @@ class Forum extends Component {
   render() {
     return (
       <div className="form-container Forum__MainDiv">
-        <div className="row Forum__row  align-items-end">
+        <div className="row Forum__row  align-items-end" style={{marginLeft:"30px"}}>
           <div className="col-md-5" id="form-card">
             <h5 className="Forum__txthead">MEET OUR LEADERS</h5>
             <p className="Forum__para">
