@@ -565,9 +565,13 @@ a .Desk__link:hover {
     margin-bottom: 0 !important ;
     line-height: 35px;
   }
+  .Desk__margin{
+    margin-left: 26px !important;
+  }
   .Desk__textPara {
     margin-right: 2rem;
     margin-top: 20px;
+    margin-left: 26px;
     line-height: 19px;
     font-size: 13px;
     margin-bottom: 0;

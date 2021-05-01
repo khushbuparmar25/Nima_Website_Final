@@ -1,6 +1,6 @@
 import React from 'react'
 import AppBody from '../routes'
-import Header from '../Components/Header'
+import Header from '../Header/Header'
 import './Applayout.css'
 const Applayout = () => {
     return (
