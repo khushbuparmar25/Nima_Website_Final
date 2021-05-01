@@ -267,7 +267,7 @@ practitioners who believe in integration. The Association year for Branches is f
             <p id="paragraphContent">{this.state.text[this.state.currentText]}</p>
           </div>
 
-          <hr id="lineDivider" />
+          <hr id="lineDivider" className={'history-hr'}/>
          
         </div>
         <div className="row registerLink">

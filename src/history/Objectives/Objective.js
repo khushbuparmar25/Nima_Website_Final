@@ -310,7 +310,7 @@ way to achieve it</li>
             <p id="paragraphContent">{this.state.text[this.state.currentText]}</p>
           </div>
 
-          <hr id="lineDivider" />
+          <hr id="lineDivider" className={'objective-hr'}/>
 
         </div>
         <div className="row registerLink">

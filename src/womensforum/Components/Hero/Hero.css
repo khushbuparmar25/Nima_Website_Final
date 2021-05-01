@@ -144,13 +144,15 @@
 }
 
 /*FOR VERY SMALL DEVICES MOBILE PHONES*/
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) { */
+@media screen and (max-width: 600px) {
   .Hero__hero-img {
     position: absolute;
     top: 330px;
     right: 0px;
     z-index: 0;
     height: 375px;
+    width: auto;
   }
   #Hero__desktop {
     display: none;
@@ -209,7 +211,8 @@
   .Hero__hero-content {
     margin-top: 13px;
     font-size: 13px;
-    width:323px;
+    width: auto;
+    /* width:323px; */
     margin-left: 23px;
   }
   .Hero__cta {
@@ -300,7 +303,8 @@
 }
 
 /*For small and medium devices-Tablet*/
-@media (min-width: 576px) and (max-width: 800px) {
+/* @media (min-width: 576px) and (max-width: 800px) { */
+  @media (min-width: 600px) and (max-width: 800px) {
   #Hero__desktop {
     display: block;
   }
@@ -309,10 +313,11 @@
   }
   .Hero__hero-img {
     position: absolute;
-    top: 120px;
+    top: 270px;
     right: 0px;
     z-index: 0;
     height: 370px;
+    width: auto;
   }
   .Hero__heading{
     margin-top: 10px;

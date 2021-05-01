@@ -697,7 +697,7 @@ class Objective extends React.Component {
               </p>
             </div>
             <div>
-              <hr id="lineDivider" />
+              <hr id="lineDivider" className={'objective-hr'}/>
               <a className="Objective__link Objective__registerLink" href="#">
                 Register Yourself{" "}
 
@@ -737,7 +737,7 @@ class Objective extends React.Component {
               </p>
             </div>
             <div>
-              <hr id="lineDivider" />
+              <hr id="lineDivider" className="objective-hr"/>
               <a className="Objective__link Objective__registerLink" href="#">
                 Register Yourself{" "}
 
