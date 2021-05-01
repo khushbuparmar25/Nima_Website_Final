@@ -447,6 +447,7 @@ a .Desk__link:hover {
   }
   .Desk__col {
     height: 22rem;
+    z-index:0 !important;
   }
   .Desk__rowSelected {
     /* margin-left: 5% !important; */

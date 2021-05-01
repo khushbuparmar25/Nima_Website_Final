@@ -183,7 +183,7 @@ export default class StudentForm extends React.Component {
       "December",
     ];
     return (
-      <div className="Student form_main">
+      <div className="Student form_main" style={{marginTop: "85px;"}}>
         {
           this.state.firstDiv && (
             <div className="Student_first">

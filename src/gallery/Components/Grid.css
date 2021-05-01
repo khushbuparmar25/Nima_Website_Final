@@ -1,6 +1,10 @@
 .Grid_container {
   background-color: #121212;
   height: 100vh;
+  position:absolute;
+  top:0%;
+  z-index:1;
+  width:100vw;
 }
 
 .Grid_title {

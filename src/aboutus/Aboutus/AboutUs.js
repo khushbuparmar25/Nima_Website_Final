@@ -154,7 +154,7 @@ class AboutUs extends React.Component {
     }
     render()
     {return(  <>
-        <div className="AboutUs">
+        <div className="AboutUs" >
         
         <div className="AboutUs_firstdiv" style={{marginBottom:"10%",height:"90vh",width:"100%"}}>
                 

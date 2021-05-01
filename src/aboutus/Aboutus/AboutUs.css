@@ -8,6 +8,10 @@
   margin-bottom: 100px !important;
   /* opacity: 17%; */
 }
+.AboutUs_col{
+  margin-left:8% !important;
+  max-width: 84% !important;
+}
 .illustration {
   /* width: 712px; */
   width: 100%;
@@ -233,9 +237,9 @@ hr {
     display: none;
   }
   .caro {
-    margin-left: 40%;
+    margin-left: 10%;
     padding-left: 0px;
-    width: 60%;
+    width: 80%;
   }
   .AboutUs_doctorImage {
     width: 121px;

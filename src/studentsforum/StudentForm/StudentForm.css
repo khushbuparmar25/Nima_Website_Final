@@ -4,6 +4,7 @@
 } */
 .Student_BackBtn {
   cursor: pointer;
+  margin-left: 45px;
 }
 .Student_input {
   border: 1px solid #cadeef;
@@ -173,6 +174,7 @@
   line-height: 24px;
   /* identical to box height */
   color: #ffffff;
+  margin-left: 291px;
 }
 .Student_cap {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -230,7 +232,6 @@
   line-height: 14px;
   border-color: transparent;
   padding: 2px;
-  margin-right: 16px;
 }
 .Student_back {
   cursor: pointer;
@@ -250,6 +251,7 @@
   text-align: right;
   margin-left: 514px;
   margin-top: 20px !important;
+  margin-right: 59px;
 }
 /* .Student_page2 {
   margin-top: 195px;
@@ -259,8 +261,12 @@
 .Student_page1 {
   margin-bottom: 50px;
 }
+.Student_page2 {
+  margin-top: 195px;
+  margin-right: 59px;
+}
 @media (max-width: 500px) {
-  .udent_input {
+  .Student_input {
     margin-bottom: 25px;
     padding: 0px;
   }
@@ -349,9 +355,22 @@
   }
   .Student_page1 {
     align-items: left;
-    margin-left: 0px;
-    margin-top: 30px;
     margin-bottom: 100px;
+    margin-top: -30px !important;
+    margin-right: 300px;
+  }
+  .Student_next {
+    margin-left: 178px;
+  }
+  .Student_BackBtn {
+    display: none;
+  }
+  .Student_page2 {
+    margin-top: -30px !important;
+    margin-right: 300px;
+  }
+  .Student_submit {
+    margin-left: 178px;
   }
 }
 /* Big tablets */
@@ -365,9 +384,6 @@
   .SFSecound_row {
     height: 100vh;
   }
-}
-.Student_pic {
-  /* height: 100vh; */
 }
 @media (min-width: 510px) {
   .Student_head2_mob {

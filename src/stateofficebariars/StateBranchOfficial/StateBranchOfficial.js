@@ -306,7 +306,7 @@ class StateBranchOfficials extends React.Component {
       </Switch> }
     </BrowserRouter>*/}
           </Fragment>
-          <hr align="center" className="StateBranchOfficials__hr2" />
+          {/* <hr align="center" className="StateBranchOfficials__hr2" /> */}
         </div>
 
         <div className="row StateBranchOfficials__row3">

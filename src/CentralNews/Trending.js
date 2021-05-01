@@ -82,7 +82,7 @@ export default class Trending extends Component {
               </div>
             </div>
             <div className="row mt-md-4">
-              <div className="col-md-6 col-12 Trending_mobileMargin  mt-3">
+              <div className="col-md-6 col-12 Trending_mobileMargin  mt-4">
                 <img
                   src={this.state.news[2].image[0]}
                   alt=""
@@ -101,7 +101,7 @@ export default class Trending extends Component {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 col-12 Trending_mobileMargin mt-3">
+              <div className="col-md-6 col-12 Trending_mobileMargin mt-4">
                 <img
                   alt=""
                   onClick={() => this.showModal(3)}
@@ -122,7 +122,7 @@ export default class Trending extends Component {
               </div>
             </div>
             <Link
-              className="Trending__showMore mt-md-4 mt-3"
+              className="Trending__showMore mt-md-2 mt-3"
               to={{
                 pathname: "/allnews",
                 state: { news: this.state.news },
