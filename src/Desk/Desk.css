@@ -133,7 +133,7 @@ a .Desk__link:hover {
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 15px;
   border-bottom-right-radius: 14px;
   border-bottom-left-radius: 14px;
   text-transform: uppercase;
@@ -636,6 +636,7 @@ a .Desk__link:hover {
     align-items: center;
     overflow-x: scroll !important;
     position: relative;
+    padding-left: 25px !important;
   }
   ::-webkit-scrollbar {
     width: 0px; /* Remove scrollbar space */
