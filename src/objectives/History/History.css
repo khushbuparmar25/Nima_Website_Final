@@ -96,7 +96,7 @@ body {
   }
 }
 
-hr {
+.history-hr {
   height: 8px;
   background-color: #ff812d;
   border: none;

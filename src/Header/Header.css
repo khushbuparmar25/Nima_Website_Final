@@ -5,7 +5,7 @@
     height: 100px !important;
     border-bottom: #a3a5a8 solid 1px !important;
     background-color: white !important;  
-    z-index: 1;
+    /* z-index: 1; */
     padding: 8px 0 !important;
     width:100% !important;
     color: #000 !important;
@@ -13,9 +13,13 @@
 .navbar-light .navbar-nav .nav-link{
   color:black !important;
 }
-.Header_mobile{
+.Header_mobile-light{
   height: auto;
   background-color: #fff !important;
+}
+.Header_mobile-dark{
+  height: auto;
+  background-color: #000 !important;
 }
 .Header_history{
     height: 100px !important;

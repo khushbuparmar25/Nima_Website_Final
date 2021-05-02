@@ -8,11 +8,11 @@ function Hero() {
     <div>
     <img src={heroDesk} alt="hero" className="Hero__hero-img" id="Hero__desktop"/>
     <img src={heroSm} alt="hero" className="Hero__hero-img" id="Hero__mobile"/>
-    <div className="Hero__hero">
+    <div> {/* className="Hero__hero"*/}
       <div>
         {/* row for hero component */}
         <div className="Hero__hero-row row">
-          <div className="col-12 col-md-6" style={{marginLeft:"50px", paddingLeft:"0", marginTop:"50px"}}>
+          <div className="col-md-6 col-sm-12 col-xs-12" style={{marginLeft:"50px", padding: "0", marginTop:"50px"}}>{/*col-12  paddingLeft:"0",*/}
             {/* pre title as specified in the design */}
             <div className="Hero__pre-title">NIMA'S WOMEN'S FORUM</div>
             {/* main hero title */}
@@ -68,7 +68,7 @@ function Hero() {
             </div>
             <br />
           </div>
-          <div className="col-12 col-md-6"></div> 
+          <div className="col-md-6 col-sm-12 col-xs-12" style={{padding:"0"}}></div> {/**col-12 */}
         </div>
         <br />
         <br />

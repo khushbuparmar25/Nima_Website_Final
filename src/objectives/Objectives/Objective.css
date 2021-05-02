@@ -80,7 +80,7 @@ pre {
 ul {
   padding-right: 20px;
 }
-hr {
+.objective-hr {
   height: 8px;
   background-color: #ff812d;
   border: none;
@@ -224,7 +224,7 @@ hr {
     text-align: right;
     color: #ffeadc;
   }
-  hr {
+  .objective-hr {
     height: 8px;
     background-color: #ff812d;
     border: none;

@@ -619,7 +619,7 @@ class History extends React.Component {
                   </p>
                 </div>
                 <div>
-                  <hr id="lineDivider" />
+                  <hr id="lineDivider" className="history-hr" />
                   <Link
                     to="/register"
                     className="History__link History__registerLink"
@@ -661,7 +661,7 @@ class History extends React.Component {
                   </p>
                 </div>
                 <div>
-                  <hr id="lineDivider" />
+                  <hr id="lineDivider" className="history-hr"/>
                   <Link
                     to="/register"
                     className="History__link History__registerLink"
