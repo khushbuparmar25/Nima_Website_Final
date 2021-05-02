@@ -25,13 +25,12 @@
 }
 .Download_row_styling{
   padding-left: 88px;
+  margin-left: 0 !important;
+  margin-top:50px !important;
 }
 .Download_mx-sm-auto {
   margin-right: 63px!important;
   margin-left: 20px !important;
-}
-.row{
-    margin-left: 0 !important;
 }
   .card {
     position: relative;

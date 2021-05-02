@@ -51,7 +51,7 @@ class Covid extends React.Component {
               <p className="Covid__heading3 Covid__marginDesktop">
                 Recommendation
               </p>
-              <p className="Covid__marginDesktop Covid__heading4">by NIMA CC</p>
+              <p className="Covid__marginDesktop Covid__heading4">NIMA CC</p>
               <p className="Covid__marginDesktop Covid__para2">
                 Real-time training during global emergencies is critical for
                 effective preparedness and response. The COVID-19 channel

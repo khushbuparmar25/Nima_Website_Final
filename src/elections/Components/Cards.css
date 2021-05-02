@@ -56,14 +56,14 @@
 }
 
 .Cards_row_styling{
-    padding-left: 17% !important;
+    padding-left: 15% !important;
     padding-right: 0;
     padding-top: 3.7rem;
 }
 
 /* for second row */
 .Cards_row_styling2{
-    padding-left: 33% !important;
+    padding-left: 31% !important;
     padding-right: 0;
     padding-top: 3.7rem;
 }
@@ -159,7 +159,7 @@
 
 /* for second row */
 .Cards_row_styling2{
-    padding-left: 17% !important;
+    padding-left: 15% !important;
     padding-right: 0;
     padding-top: 36px;
     padding-bottom: 20px;

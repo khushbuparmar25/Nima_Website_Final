@@ -64,7 +64,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 .Hero_herosvg{
     height: auto;
     width: 50rem;
-    margin-top: 1rem;
+    margin-top: -19rem;
 }
 .Hero_arrowsvg{
     margin-left: 15px;

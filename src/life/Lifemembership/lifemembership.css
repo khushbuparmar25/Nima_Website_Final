@@ -78,7 +78,7 @@
   }
   .Lifemembership_picture {
     width: 792px;
-    height: 611px;
+    height: 540px;
   }
   .Lifemembership_text {
     font-size: 16px;
@@ -99,5 +99,6 @@
   .Lifemembership_first {
     margin-left: 92px !important;
     margin-right: 86px !important;
+    margin-top:-100px !important;
   }
 }

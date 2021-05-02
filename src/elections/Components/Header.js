@@ -15,7 +15,7 @@ function Header(){
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                     <div className="Header__firstcol">
                     <div className="Header__mainheading">Nima CC</div>
-                    <div className="Header__heading_1">Elections <span className="Header__heading_2">2019 - 21</span></div>
+                    <div className="Header__heading_1">Elections <span className="Header__heading_2" >2019 - 21</span></div>
                     <div className="Header__subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco
