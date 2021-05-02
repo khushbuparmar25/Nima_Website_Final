@@ -5,7 +5,8 @@ function Footer() {
     <div className="footer">
       <div className="Footer__heading" style={{textAlign:"left"}}>Office Add.</div>
       <div className="Footer__subheading" style={{textAlign:"left"}}>
-        <div>G/2, Mohan Kunj, M.J. Phule Road, Naigon, Dadar(East),</div>
+        <div>G/2, Mohan Kunj, M.J.</div>
+        <div> Phule Road, Naigon, Dadar(East),</div>
         <div>Mumbai - 400014</div>
         <div>Ph : 022-24123407</div>
         <div>3:00pm - 5:00pm</div>

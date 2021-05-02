@@ -348,7 +348,7 @@ export default class BranchNews extends Component {
                   {/* <div className="col-2">
                     <MdMenu className="Menu_btn" size={20} />
                   </div> */}
-                  <div className="col-10 p-0 text-center">
+                  <div className="col-10 p-0 text-center BranchNews__state-district">
                     <select
                       className="BranchNews__selectState"
                       onChange={this.handleChangeState}

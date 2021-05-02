@@ -76,7 +76,7 @@ class First extends React.Component {
               <div className="row p-0 ContactHeader_row">
                 <div
                   className="col-11 p-0 text-center"
-                  style={{ fontSize: "28px" }}
+                  style={{ fontSize: "28px", marginTop:"15px" }}
                 >
                   <p>What shall be in next?</p>
                 </div>
@@ -225,11 +225,11 @@ class First extends React.Component {
                           </div>
                         </div>
                         <div className="row">
-                          <div className="col-2">
+                          <div className="col-2 pr-0">
                             <img src={captch} alt="" className="img-fluid" />
                           </div>
                           <div className="col-6">
-                            <p style={{ color: "#785086" }}>I'm not a robot!</p>
+                            <p style={{ color: "#785086", fontSize:"15px",marginTop:"5px" }}>I'm not a robot!</p>
                           </div>
                         </div>
                         <div className="row d-flex justify-content-center">

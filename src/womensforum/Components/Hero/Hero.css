@@ -62,7 +62,7 @@
   font-weight: 500;
 }
 .Hero__count {
-  margin-top: 65px;
+  margin-top: 19px;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px 50px;
@@ -148,7 +148,7 @@
 @media screen and (max-width: 600px) {
   .Hero__hero-img {
     position: absolute;
-    top: 330px;
+    top: 420px;
     right: 0px;
     z-index: 0;
     height: 375px;
@@ -227,8 +227,8 @@
     font-weight: 500;
   }
   .Hero__count {
-    margin-top:330px;
-    margin-left: 20px;
+    margin-top:365px;
+    margin-left: -8px;
   }
   .Hero__card1 {
     width: 75px;
@@ -244,7 +244,7 @@
     width: 75px;
     height: 80px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 11px 11px 8px 11px;
     color: white;
@@ -263,7 +263,7 @@
     width: 75px;
     height: 80px;
     border: 1px solid #2145b7;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     margin-left: 0px !important;
     padding: 11px 11px 8px 11px;
@@ -428,7 +428,7 @@
     width: 80px;
     height: 85px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     padding: 18px 12px 9px 12px;
     background-color: #00c78c;
@@ -447,7 +447,7 @@
     width: 80px;
     height: 85px;
     border: 1px solid #2145b7;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     margin-left: -10px !important;
     padding: 18px 12px 9px 12px;

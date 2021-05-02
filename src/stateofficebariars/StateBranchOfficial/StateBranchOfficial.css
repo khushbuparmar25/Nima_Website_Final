@@ -423,6 +423,8 @@
     font-weight: 600;
     line-height: 37px;
     font-size: 25px;
+    margin-bottom: 2.5rem;
+    margin-top: 30px;
   }
   .react-multi-carousel-item {
     margin-right: 3rem;
@@ -459,7 +461,7 @@
     font-weight: normal;
     font-size: 13px;
     padding-left: 50px;
-    padding-right: 25px;
+    padding-right: 0px;
     color: #4a3a3a;
   }
   .StateBranchOfficials__active {
@@ -468,7 +470,7 @@
     font-weight: normal;
     font-size: 13px;
     padding-left: 50px;
-    padding-right: 25px;
+    padding-right: 0px;
     color: #4a3a3a;
   }
   .StateBranchOfficials__nav-container {
@@ -484,6 +486,8 @@
     line-height: 28px;
     margin-left: 1rem;
     color: #2541b2;
+    margin-top:20px;
+    margin-bottom:-25px;
   }
   .StateBranchOfficials__btn:hover {
     font-family: "Poppins", sans-serif;

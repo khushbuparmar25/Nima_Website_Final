@@ -426,6 +426,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
+    margin-top:14px;
   }
 
   .BranchNews__selectState {
@@ -440,6 +441,10 @@
     color: #000000;
     background-color: white;
     margin-right: 10px;
+    width:60px;
+  }
+  .BranchNews__state-district{
+    min-width:105.33% !important;
   }
   .BranchNews__selectBranch {
     border: none;

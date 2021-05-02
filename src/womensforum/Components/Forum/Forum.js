@@ -142,7 +142,7 @@ class Forum extends Component {
     return (
       <div className="form-container Forum__MainDiv">
         <div className="row Forum__row  align-items-end" style={{marginLeft:"30px"}}>
-          <div className="col-md-5" id="form-card">
+          <div className="col-md-5 WomensForum_form" id="form-card">
             <h5 className="Forum__txthead">MEET OUR LEADERS</h5>
             <p className="Forum__para">
               Welcome to the official website of Indian Dental Association, the

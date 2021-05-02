@@ -155,7 +155,7 @@ class Slider extends React.Component {
     
     {
         this.state.boardmembers.map((bmember,index) =>
-        <div key={index} className="Slider_doctorContainer" >
+        <div key={index} className="Slider_doctorContainer" style={{width:"150px"}}>
         <div className="Slider_photo">
         <img src={bmember.image} alt={bmember.name} className="Slider_picture" />
         <p className="Slider_names">{bmember.designation}</p>
@@ -205,7 +205,7 @@ class Slider extends React.Component {
     </Carousel>
     </div>
     </div> */}
-    <div className="Slider_members">MEMBERS</div>
+    <div className="Slider_members" style={{marginLeft:"-5px"}}>MEMBERS</div>
         <div className="row">
         <div className="col-md-9 offset-md-3" style={{marginLeft:"10%"}}>
         <Carousel className="Slider_caro"
@@ -228,7 +228,7 @@ class Slider extends React.Component {
     
     {
         this.state.members.map((member,index) =>
-        <div key={index} className="Slider_doctorContainer" >
+        <div key={index} className="Slider_doctorContainer" style={{width:"150px"}}>
         <div className="Slider_photo">
         <img src={member.image} alt={member.name} className="Slider_picture" />
         <p className="Slider_names">{member.designation}</p>
@@ -243,7 +243,7 @@ class Slider extends React.Component {
     </div>
     </div>
     
-     <div className="Slider_members" style={{marginLeft:"20px"}}>Ex. Officio MEMBERS</div>
+     <div className="Slider_members" style={{marginLeft:"40px"}}>Ex. Officio MEMBERS</div>
         <div className="row">
         <div className="col-md-9 offset-md-3" style={{marginLeft:"10%"}}>
         <Carousel className="Slider_caro"
@@ -266,7 +266,7 @@ class Slider extends React.Component {
     
     {
         this.state.exofficiomembers.map((officio,index) =>
-        <div key={index} className="Slider_doctorContainer" >
+        <div key={index} className="Slider_doctorContainer" style={{width:"150px"}}>
         <div className="Slider_photo">
         <img src={officio.image} alt={officio.name} className="Slider_picture" />
         <p className="Slider_names">{officio.designation}</p>

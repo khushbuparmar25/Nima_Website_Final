@@ -10,7 +10,7 @@
 }
 .AboutUs_col{
   margin-left:8% !important;
-  max-width: 84% !important;
+  max-width: 100% !important;
 }
 .illustration {
   /* width: 712px; */
@@ -301,7 +301,7 @@
   height: 819px;
   left: 0px;
   top: 0px;
-
+  margin-top:-80px;
   background: rgba(255, 68, 0, 0.17);
 }
 .AboutUs_lastdiv {

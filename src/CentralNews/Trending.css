@@ -412,6 +412,9 @@
     padding-right: 0;
     margin-top: 20px;
   }
+  .Trending_marginissue{
+    padding-left:0 !important;
+  }
   .Trending_col_2image {
     border-radius: 10px;
     filter: brightness(50%);

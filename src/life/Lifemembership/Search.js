@@ -175,7 +175,7 @@ class Search extends Component {
                 </tr>
               </table>
             </div>
-            <div className="mobile">
+            <div className="mobile" style={{height:"200px"}}>
               <table className="Search__table">
                 <tr>
                   <td className="Search__title">Name</td>

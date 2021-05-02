@@ -51,6 +51,7 @@
 }
 .Header_links{
     padding-right:0px !important;
+    align-items:end !important;
 }
 .Header_icon{
     margin-left: 5px;

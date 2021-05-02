@@ -59,7 +59,7 @@ export default class Trending extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-12 pl-md-0 ">
+          <div className="col-md-6 col-12 pl-md-0 Trending_marginissue">
             <div className="row">
               <div className="col-12 Trending_mobileMargin">
                 <img

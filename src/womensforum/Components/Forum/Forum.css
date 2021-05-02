@@ -10,6 +10,9 @@
 .form-container{
   background-color: #F6F6F6 !important;
 }
+.WomensForum_form{
+  margin-left:50px;
+}
 /*desktops*/
 @media only screen and (min-width: 1200px) {
   .mobile {
@@ -481,4 +484,8 @@
   .Forum__table tr td:last-child {
     border-right: 0;
   }
+  .WomensForum_form{
+    margin-left:0;
+  }
+
 }

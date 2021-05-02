@@ -115,10 +115,6 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         width: 20.56px;
         height: auto;
     }
-    .Header__firstcol{
-        margin-top: 100px;    
-    }
-
     .Header__mainheading{
         font-size: 30px;
         line-height: 45px;
@@ -128,7 +124,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 
     .Header__heading_1{
         font-size: 30px;
-        width:50%;
+        width:90%;
         font-family: 'Poppins', sans-serif;
         font-weight:400;
         line-height: 45px;
@@ -280,11 +276,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     .Header__sandwich{
         display: none;
-    }
-    .Header__firstcol{
-        padding-top: 100px;
-    }
-    
+    }    
     .Header__mainheading{
         font-family: 'Poppins', sans-serif;
         font-weight: 700;

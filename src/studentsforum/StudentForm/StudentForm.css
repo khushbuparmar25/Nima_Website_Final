@@ -267,7 +267,7 @@
 }
 @media (max-width: 500px) {
   .Student_input {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     padding: 0px;
   }
   .form-row > .col,
@@ -433,7 +433,7 @@
     /* display: flex;
     justify-content: flex-start; */
     color: black;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 14px;
     padding: 20px;
     padding-bottom: 0;
@@ -475,7 +475,7 @@
     color: white;
     line-height: 1.5;
     margin-left: 0;
-    font-size: 28px;
+    font-size: 35px;
   }
 }
 .personalDOB {

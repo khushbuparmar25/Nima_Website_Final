@@ -68,7 +68,7 @@ export default class ThreeOrMore extends Component {
             </div>
             <div className="col-md-7 col-12 Three__removePM">
               <div className="row">
-                <div className="col-md-3 col-5 Three_removeDesk">
+                <div className="col-md-3 col-5 Three_removeDesk" style={{marginBottom:"20px"}}>
                   <img
                     src={this.state.news[1].image[0]}
                     className="img-fluid col_2image Three_hover"
@@ -93,11 +93,11 @@ export default class ThreeOrMore extends Component {
                     alt=""
                     onClick={() => this.showModal(2)}
                     src={this.state.news[2].image[0]}
-                    className="img-fluid col_2image Three_hover"
+                    className="img-fluid col_2image Three_hover" 
                   />
                 </div>
                 <div
-                  className="col-md-9 col-7 Three_removeDesk Three_hover"
+                  className="col-md-9 col-7 Three_removeDesk Three_hover" 
                   onClick={() => this.showModal(2)}
                 >
                   <p className="Three_col2_date">{this.state.news[2].date}</p>
@@ -150,7 +150,7 @@ export default class ThreeOrMore extends Component {
             </div>
             <div className="col-md-7 col-12 Three__removePM">
               <div className="row">
-                <div className="col-md-3 col-5 Three_removeDesk ">
+                <div className="col-md-3 col-5 Three_removeDesk " style={{marginBottom:"20px"}}>
                   <img
                     src={this.state.news[1].image[0]}
                     onClick={() => this.showModal(1)}
@@ -170,7 +170,7 @@ export default class ThreeOrMore extends Component {
                 </div>
               </div>
               <div className="row mt-lg-4 mt-2">
-                <div className="col-md-3 col-5 Three_removeDesk ">
+                <div className="col-md-3 col-5 Three_removeDesk " style={{marginBottom:"20px"}}>
                   <img
                     src={this.state.news[2].image[0]}
                     className="img-fluid col_2image Three_hover"
@@ -179,7 +179,7 @@ export default class ThreeOrMore extends Component {
                   />
                 </div>
                 <div
-                  className="col-md-9 col-7 Three_removeDesk Three_hover "
+                  className="col-md-9 col-7 Three_removeDesk Three_hover " 
                   onClick={() => this.showModal(2)}
                 >
                   <p className="Three_col2_date">{this.state.news[2].date}</p>
@@ -199,7 +199,7 @@ export default class ThreeOrMore extends Component {
                   />
                 </div>
                 <div
-                  className="col-md-9 col-7 Three_removeDesk Three_hover"
+                  className="col-md-9 col-7 Three_removeDesk Three_hover" 
                   onClick={() => this.showModal(3)}
                 >
                   <p className="Three_col2_date">{this.state.news[3].date}</p>
@@ -251,7 +251,7 @@ export default class ThreeOrMore extends Component {
             </div>
             <div className="col-md-7 col-12 Three__removePM">
               <div className="row">
-                <div className="col-md-3 col-5 Three_removeDesk">
+                <div className="col-md-3 col-5 Three_removeDesk" style={{marginBottom:"20px"}}>
                   <img
                     src={this.state.news[1].image[0]}
                     className="Three_hover img-fluid col_2image"
@@ -260,7 +260,7 @@ export default class ThreeOrMore extends Component {
                   />
                 </div>
                 <div
-                  className="col-md-9 col-7 Three_removeDesk Three_hover"
+                  className="col-md-9 col-7 Three_removeDesk Three_hover" 
                   onClick={() => this.showModal(1)}
                 >
                   <p className="Three_col2_date ">{this.state.news[1].date}</p>
@@ -271,7 +271,7 @@ export default class ThreeOrMore extends Component {
                 </div>
               </div>
               <div className="row mt-lg-4 mt-2">
-                <div className="col-md-3 col-5 Three_removeDesk Three_hover">
+                <div className="col-md-3 col-5 Three_removeDesk Three_hover" style={{marginBottom:"20px"}}>
                   <img
                     src={this.state.news[2].image[0]}
                     className="img-fluid col_2image"
