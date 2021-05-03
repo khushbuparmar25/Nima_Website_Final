@@ -12,7 +12,7 @@ function Hero() {
       <div>
         {/* row for hero component */}
         <div className="Hero__hero-row row">
-          <div className="col-md-6 col-sm-12 col-xs-12" style={{marginLeft:"50px", padding: "0", marginTop:"50px"}}>{/*col-12  paddingLeft:"0",*/}
+          <div className="col-md-6 col-sm-12 col-xs-12 Hero__header__placement" style={{ }}>{/*col-12  paddingLeft:"0",*/}
             {/* pre title as specified in the design */}
             <div className="Hero__pre-title">NIMA'S WOMEN'S FORUM</div>
             {/* main hero title */}

@@ -11,7 +11,7 @@
   background-color: #F6F6F6 !important;
 }
 .WomensForum_form{
-  margin-left:50px;
+  margin-left:100px;
 }
 /*desktops*/
 @media only screen and (min-width: 1200px) {
@@ -231,6 +231,9 @@
   .Forum__table tr td:last-child {
     border-right: 0;
   }
+  .WomensForum_form{
+    margin-left:60px;
+  }
 }
 
 /*tablet*/
@@ -355,6 +358,9 @@
   .Forum__table tr td:last-child {
     border-right: 0;
   }
+  .WomensForum_form{
+    margin-left:30px;
+  }
 }
 
 /*mobile*/
@@ -424,7 +430,7 @@
   }
 
   .Forum__btn {
-    width: 100%;
+    width: 97%;
     height: 53px;
     background: #2541b2;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
@@ -485,7 +491,7 @@
     border-right: 0;
   }
   .WomensForum_form{
-    margin-left:0;
+    margin-left:10px;
   }
 
 }
