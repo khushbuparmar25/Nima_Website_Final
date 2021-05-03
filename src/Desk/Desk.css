@@ -660,3 +660,12 @@ a .Desk__link:hover {
     margin-bottom: 0;
   }
 }
+
+@media (min-width: 768px){
+  .Desk__img_width{
+    max-width:45%;
+  }
+}
+.Desk__carousel__width{
+  max-width:55%;
+}

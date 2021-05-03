@@ -125,11 +125,11 @@ class Desk extends React.Component {
             {!this.state.showDoctors && (
               <Fragment>
                 <div className="Desk__linkDesktop">
-                  <div className="Desk__row  h-100 mr-0 row align-items-center">
+                  <div className="Desk__row  h-100 mr-0 row align-items-center" style={{paddingTop:"0"}}>
                     {/* <div className="col-12">
                 <hr className="Desk__hr" />
         </div>*/}
-                    <div className="col-6 col-md-6 Desk__col">
+                    <div className="col-6 col-md-6 Desk__col Desk__img_width">
                       <h1 className="Desk__h1 Desk__margin">Desk</h1>
                       <br />
                       <p className="Desk__textPara Desk__margin ">
@@ -157,7 +157,7 @@ class Desk extends React.Component {
                         </a>
                       </span>
                     </div>
-                    <div className="col-6 pr-0">
+                    <div className="col-6 pr-0 Desk__carousel__width">
                       <Carousel
                         swipeable={true}
                         draggable={false}
