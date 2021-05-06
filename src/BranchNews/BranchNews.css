@@ -119,6 +119,8 @@
     line-height: 48px;
     color: #000000;
     margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .BranchNews__imageCol {
     padding: 0 !important;

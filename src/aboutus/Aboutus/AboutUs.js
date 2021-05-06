@@ -212,8 +212,8 @@ class AboutUs extends React.Component {
         <img src={doctor.image} alt={doctor.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{doctor.designation}</p>
         </div>
-                <span className="AboutUs_doctorName">{doctor.name}</span><br/>
-               <span className="AboutUs_doctorPlace">{doctor.place}</span>
+                <div className="AboutUs_doctorName">{doctor.name}</div><br/>
+               <div className="AboutUs_doctorPlace">{doctor.place}</div>
                </div>
         </div>
         )
@@ -286,8 +286,8 @@ class AboutUs extends React.Component {
         <img src={joint.image} alt={joint.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{joint.designation}</p>
         </div>
-        <span className="AboutUs_doctorName">{joint.name}</span><br/>
-        <span className="AboutUs_doctorPlace">{joint.place}</span>
+        <div className="AboutUs_doctorName">{joint.name}</div><br/>
+        <div className="AboutUs_doctorPlace">{joint.place}</div>
         </div>
         </div>
         )
@@ -325,8 +325,8 @@ class AboutUs extends React.Component {
         <img src={assistant.image} alt={assistant.name} className="AboutUs_doctorImage" />
         <p className="AboutUs_doctorDesignation">{assistant.designation}</p>
         </div>
-        <span className="AboutUs_doctorName">{assistant.name}</span><br/>
-        <span className="AboutUs_doctorPlace">{assistant.place}</span>
+        <div className="AboutUs_doctorName">{assistant.name}</div><br/>
+        <div className="AboutUs_doctorPlace">{assistant.place}</div>
         </div>
         </div>
         )

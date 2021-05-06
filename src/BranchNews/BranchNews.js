@@ -236,6 +236,7 @@ export default class BranchNews extends Component {
                     className="BranchNews__selectState"
                     onChange={this.handleChangeState}
                     id="state"
+                    style={{color:'#FFA412'}}
                   >
                     <option
                       value=""
@@ -243,11 +244,14 @@ export default class BranchNews extends Component {
                       disabled
                       selected
                       defaultValue
+                      style={{color:'#000'}}
                     >
-                      Select State
+                      State
                     </option>
                     {this.state.states.map((state, index) => (
                       <option
+                      style={{color:'#000'}}
+                      // style={{color:this.state.selectedState===state? '#FFA412' : ""}}
                         className="BranchNews_option"
                         value={state}
                         key={index}
@@ -268,7 +272,7 @@ export default class BranchNews extends Component {
                       selected
                       defaultValue
                     >
-                      Select District
+                      District
                     </option>
                     {this.state.districts.map((district, index) => (
                       <option
@@ -293,7 +297,7 @@ export default class BranchNews extends Component {
                       selected
                       defaultValue
                     >
-                      Select Branch
+                      Branch
                     </option>
                     {this.state.branch.map((branch, index) => (
                       <option

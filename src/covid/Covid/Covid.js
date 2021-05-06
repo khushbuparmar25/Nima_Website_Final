@@ -76,7 +76,7 @@ class Covid extends React.Component {
                 <div className="col-12">
                   <button
                     type="button"
-                    className="btn btn-outline-primary Covid__button"
+                    className="btn btn-outline-primary Covid__button" style={{fontWeight:"600"}}
                   >
                     Training for current outbreak
                   </button>
