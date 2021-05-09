@@ -328,7 +328,7 @@
     padding-bottom: 160px;
   }
   .AboutUs_heading {
-    padding-top: 210px !important;
+    padding-top: 0 !important;
   }
   .illustration {
     margin-top: 250px;

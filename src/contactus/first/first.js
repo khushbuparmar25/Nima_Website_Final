@@ -139,7 +139,7 @@ class First extends React.Component {
                               name="firstName"
                               onChange={this.handleChange}
                               id="firstName"
-                              style={{ color: "#390969" }}
+                              // style={{ color: "#390969" }}
                             />
                           </div>
                           <div className="form-group  col-6">
@@ -389,14 +389,14 @@ class First extends React.Component {
                             ></textarea>
                           </div>
                         </div>
-                        {/* <div className="row">
-                          <div className="col-md-2">
+                        <div className="row">
+                          <div className="col-md-2 pl-4 pr-0">
                             <img src={captch} alt="" className="img-fluid" />
                           </div>
-                          <div className="col-md-4">
-                            <p style={{ color: "#785086" }}>I'm not a robot!</p>
+                          <div className="col-md-4 p-0">
+                            <p style={{ color: "#785086" }} className="mt-3">I'm not a robot!</p>
                           </div>
-                        </div> */}
+                        </div>
                         <div className="row d-flex justify-content-center">
                           <button class="button" className="Form_submitBtn">
                             {" "}

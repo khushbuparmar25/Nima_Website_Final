@@ -406,7 +406,6 @@ export default class StudentForm extends React.Component {
                           title="Number should be of 10 digits only"
                           type="tel"
                           value={this.state.alternateNo}
-                          required
                           onChange={this.handleChange}
                           placeholder="Mobile Number 2"
                         />

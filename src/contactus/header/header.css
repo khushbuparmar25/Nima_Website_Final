@@ -172,7 +172,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 38px;
+    font-size: 28px;
     margin-bottom: 0;
     color: #ffffff;
   }
@@ -190,6 +190,7 @@
   .ContactHeader_col1 {
     margin-right: 70px;
     margin-bottom: 25px;
+    margin-left:16px;
   }
   .ContactHeader_subtitle {
     font-family: "Poppins", sans-serif;

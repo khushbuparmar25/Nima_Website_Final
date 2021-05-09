@@ -11,7 +11,7 @@
   background-color: #F6F6F6 !important;
 }
 .WomensForum_form{
-  margin-left:100px;
+  padding-left:100px;
 }
 /*desktops*/
 @media only screen and (min-width: 1200px) {
